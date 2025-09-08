@@ -64,15 +64,15 @@ Organization: *UC Berkeley School of Information*
 
 6. **Is any information missing from individual instances?** If so, please provide a description, explaining why this information is missing (e.g. because it was unavailable). This does not include intentionally removed information, but might include, e.g. redacted text.
 
-	* The demographic metadata might be missing for some instances as it is optional and depends on the speaker choosing to provide the information or not. The up_votes / down_votes data may also be missing for some audios that have not been reviewed by the community.  *
+	* The demographic metadata might be missing for some instances as it is optional and depends on the speaker choosing to provide the information or not. The up_votes / down_votes data may also be missing for some audios that have not been reviewed by the community.  
 
 7. **Are relationships between individual instances made explicit (e.g. users' movie ratings, social network links)?** If so, please describe how these relationships are made explicit.
 
-	* No there is no explicit relationships in the dataset as each audio file is treated independently. There is a hashed client_id field associated with each audio, but it is only for tracking audios coming from contributors for data validation. There is no social network links or connections between the users as up_votes and down_votes only indicate if an audio files has been agreed between the users.   *
+	* No there is no explicit relationships in the dataset as each audio file is treated independently. There is a hashed client_id field associated with each audio, but it is only for tracking audios coming from contributors for data validation. There is no social network links or connections between the users as up_votes and down_votes only indicate if an audio files has been agreed between the users.   
 
 8. **Are there recommended data splits (e.g. training, development/validation, testing)?** If so, please provide a description of these splits, explaining the rationale behind them.
 
-	* Yes, there are recommended data splits in this dataset which are training, dev and test splits. Any demographic data that is present is applied to the entire dataset to create the splits.  According to the Common Voice Dataset GitHub here: https://github.com/common-voice/cv-dataset/tree/main, each version of the dataset has new set of train, dev and test to avoid reproducing and perpetuating demographic skews. The rationale of recreating the splits ensure that machine learning models that are created off this dataset are generalized better to handle unseen speakers and to reduce bias amplification. *
+	* Yes, there are recommended data splits in this dataset which are training, dev and test splits. Any demographic data that is present is applied to the entire dataset to create the splits.  According to the Common Voice Dataset GitHub here: https://github.com/common-voice/cv-dataset/tree/main, each version of the dataset has new set of train, dev and test to avoid reproducing and perpetuating demographic skews. The rationale of recreating the splits ensure that machine learning models that are created off this dataset are generalized better to handle unseen speakers and to reduce bias amplification. 
 
 9. **Are there any errors, sources of noise, or redundancies in the dataset?** If so, please provide a description.
 
@@ -80,23 +80,23 @@ Organization: *UC Berkeley School of Information*
 
 10. **Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g. websites, tweets, other datasets)?** If it links to or relies on external resources, a) are there guarantees that they will exist, and remain constant, over time; b) are there official archival versions of the complete dataset (i.e., including the external resources as they existed at the time the dataset was created); c) are there any restrictions (e.g. licenses, fees) associated with any of the external resources that might apply to a future user? Please provide descriptions of all external resources and any restrictions associated with them, as well as links or other access points, as appropriate.
 
-	* This dataset is self-contained and users don't need to click external website to get its access. This dataset is versioned and archived which means users can access same data as per when it was released. The older versions are important for reproducibility. The license for the dataset is CCO (public license) which means users can download, redistribute or modify the dataset with no issues.  *
+	* This dataset is self-contained and users don't need to click external website to get its access. This dataset is versioned and archived which means users can access same data as per when it was released. The older versions are important for reproducibility. The license for the dataset is CCO (public license) which means users can download, redistribute or modify the dataset with no issues.  
 
 11. **Does the dataset contain data that might be considered confidential (e.g. data that is protected by legal privilege or by doctor-patient confidentiality, data that includes the content of individuals' non-public communications)?** If so, please provide a description.
 
-	* No the dataset does not contain data that is confidential. The text that the contributors read is provided by Mozilla Foundation so it is not personal messages or anything that has personal identifiable information. However, Mozilla Foundation requires the dataset users to declare that they will not go hunting for the people whose voices have been recorded. This is because voice recordings are personal and if one knows how another person talks, they may manage to conceal the other person identity.*
+	* No the dataset does not contain data that is confidential. The text that the contributors read is provided by Mozilla Foundation so it is not personal messages or anything that has personal identifiable information. However, Mozilla Foundation requires the dataset users to declare that they will not go hunting for the people whose voices have been recorded. This is because voice recordings are personal and if one knows how another person talks, they may manage to conceal the other person identity.
 
 12. **Does the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?** If so, please describe why.
 
-	* No, the dataset does not contain any offensive as the text that contributors read is given to them by Mozilla Foundation. However, through community validation, some audios have marked as invalid that is they do not match the text. There hasn't been any reported cases of whether these unmatching audios are insulting or offensive. *
+	* No, the dataset does not contain any offensive as the text that contributors read is given to them by Mozilla Foundation. However, through community validation, some audios have marked as invalid that is they do not match the text. There hasn't been any reported cases of whether these unmatching audios are insulting or offensive. 
 
 13. **Does the dataset relate to people?** If not, you may skip the remaining questions in this section.
 
-	* Yes, the dataset relates to the people. it is real people who record themselves speaking loud about the text they have been prompted by the voice platform. *
+	* Yes, the dataset relates to the people. it is real people who record themselves speaking loud about the text they have been prompted by the voice platform. 
 
 14. **Does the dataset identify any subpopulations (e.g. by age, gender)?** If so, please describe how these subpopulations are identified and provide a description of their respective distributions within the dataset.
 
-	* Yes, the dataset provides an optional way to provide the metadata of the volunteers. This metadata includes the age, sex and accent/region. Since this demographic data is optional, it is not in all audio files. According to the latest version 22.0, here are the respective distribution of the subpopulations: *
+	* Yes, the dataset provides an optional way to provide the metadata of the volunteers. This metadata includes the age, sex and accent/region. Since this demographic data is optional, it is not in all audio files. According to the latest version 22.0, here are the respective distribution of the subpopulations: 
     * Gender
       * 44% Male
       * 18% Female
@@ -113,15 +113,15 @@ Organization: *UC Berkeley School of Information*
 
 15. **Is it possible to identify individuals (i.e., one or more natural persons), either directly or indirectly (i.e., in combination with other data) from the dataset?** If so, please describe how.
 
-	* Yes but it will be quite hard and indirectly.  With the hashed client_id, you could group audios from each person. You could then listen to audios, and we know that audios are unique to each person that is the way each person speak is unique. If then there is any demographic information available, the identities would be narrowed down. However, according to the dataset, most of the demographic data is often missing.  *
+	* Yes but it will be quite hard and indirectly.  With the hashed client_id, you could group audios from each person. You could then listen to audios, and we know that audios are unique to each person that is the way each person speak is unique. If then there is any demographic information available, the identities would be narrowed down. However, according to the dataset, most of the demographic data is often missing.  
 
 16. **Does the dataset contain data that might be considered sensitive in any way (e.g. data that reveals racial or ethnic origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic data; forms of government identification, such as social security numbers; criminal history)?** If so, please provide a description.
 
-	* Since this dataset contains human recordings, it will be considered to have some sensitive data as human voice is biometric data. There is also optional demographic data which is age and gender. Combining this two may in a way lead to identification of the contributor.  *
+	* Since this dataset contains human recordings, it will be considered to have some sensitive data as human voice is biometric data. There is also optional demographic data which is age and gender. Combining this two may in a way lead to identification of the contributor.  
 
 17. **Any other comments?**
 
-	* According to Mozilla Foundation, all the users of this dataset have to declare that they will not attempt to identify the contributors. I think this is important as this is dataset that has some sensitive information. *
+	* According to Mozilla Foundation, all the users of this dataset have to declare that they will not attempt to identify the contributors. I think this is important as this is dataset that has some sensitive information. 
 
 
 ## Legal & Ethical Considerations
@@ -134,23 +134,23 @@ Organization: *UC Berkeley School of Information*
 
 2. **If it relates to other ethically protected subjects, have appropriate obligations been met?** (e.g., medical data might include information collected from animals)
 
-    * Not applicable. This dataset only involves human voice recordings and does not include ethically protected subjects such as animals or medical patients.*
+    * Not applicable. This dataset only involves human voice recordings and does not include ethically protected subjects such as animals or medical patients.
 
 3. **If it relates to people, were there any ethical review applications/reviews/approvals?** (e.g. Institutional Review Board applications)
 
-    * In this dataset, there is no formal Institutional Review Board that is publicly documented. According to Mozilla Foundation, the dataset is driven by the public where it is contributed and validated by the public. Mozilla Foundation also follows its internal ethical guidelines and ensures voluntary participation and public use licensing.*
+    * In this dataset, there is no formal Institutional Review Board that is publicly documented. According to Mozilla Foundation, the dataset is driven by the public where it is contributed and validated by the public. Mozilla Foundation also follows its internal ethical guidelines and ensures voluntary participation and public use licensing.
 
 4. **If it relates to people, were they told what the dataset would be used for and did they consent?** What community norms exist for data collected from human communications? If consent was obtained, how? Were the people provided with any mechanism to revoke their consent in the future or for certain uses?
 
-    * The voice recordings contributors are informed that their voices would be used to develop speech-to-text machine learning models and applications. Contributors give voluntary consent when they submit recordings on the common voice platform under a CC0 license. Contributors who have an account, have the permission to delete their account and also request Mozilla Foundation to remove their recordings from the dataset. Contributors with no account don't have a way to get their recordings withdrawn from the datasets as contributing with no account means that your voice recordings are associated with a random user id.*
+    * The voice recordings contributors are informed that their voices would be used to develop speech-to-text machine learning models and applications. Contributors give voluntary consent when they submit recordings on the common voice platform under a CC0 license. Contributors who have an account, have the permission to delete their account and also request Mozilla Foundation to remove their recordings from the dataset. Contributors with no account don't have a way to get their recordings withdrawn from the datasets as contributing with no account means that your voice recordings are associated with a random user id.
 
 5. **If it relates to people, could this dataset expose people to harm or legal action?** (e.g., financial, social or otherwise) What was done to mitigate or reduce the potential for harm?
 
-    * Voice recordings forms part of human biometric data and can be used to identify individuals. Demographic data can also be used to narrow down the identities of the contributors. However, in this dataset, contributors identification has been made difficult by using hashed client IDs which anonymized the contributors.*
+    * Voice recordings forms part of human biometric data and can be used to identify individuals. Demographic data can also be used to narrow down the identities of the contributors. However, in this dataset, contributors identification has been made difficult by using hashed client IDs which anonymized the contributors.
 
 6. **If it relates to people, does it unfairly advantage or disadvantage a particular social group?** In what ways? How was this mitigated?
 
-    * Since this dataset is created through crowdsourcing, it is inherently that some groups and languages will be overrepresented moreso social groups or areas that have good internet connection. Mozilla Foundation do encourage contributions from the underrepresented groups, but skew remains. Mozilla Foundation also advises the dataset users to account for any bias in their machine learning modelling.*
+    * Since this dataset is created through crowdsourcing, it is inherently that some groups and languages will be overrepresented moreso social groups or areas that have good internet connection. Mozilla Foundation do encourage contributions from the underrepresented groups, but skew remains. Mozilla Foundation also advises the dataset users to account for any bias in their machine learning modelling.
 
 7. **If it relates to people, were they provided with privacy guarantees?** If so, what guarantees and how are these ensured?
 
@@ -158,7 +158,7 @@ Organization: *UC Berkeley School of Information*
 
 8. **Does the dataset comply with the EU General Data Protection Regulation (GDPR)?** Does it comply with any other standards, such as the US Equal Employment Opportunity Act?
 
-    * This dataset does comply with EU GDPR since no personally identifiable information (PII) is being collected and exposed. The US Equal Employment Opportunity Act does not apply to this dataset as no employment-related data is included.*
+    * This dataset does comply with EU GDPR since no personally identifiable information (PII) is being collected and exposed. The US Equal Employment Opportunity Act does not apply to this dataset as no employment-related data is included.
 
 9. **Does the dataset contain information that might be considered sensitive or confidential?** (e.g., personally identifying information)
 
@@ -166,7 +166,7 @@ Organization: *UC Berkeley School of Information*
 
 10. **Any other comments?**
 
-    * The designers of this dataset have done as much as they can to protect the confidentiality of the voice recordings contributors. However, because of the nature of voice recordings being biometric, there is some degree where a person may know who is speaking if they have ever heard them speaking. Therefore, the users of this dataset should use this dataset ethically which is to follow what the Mozilla Foundation have asked the dataset users to do with the dataset.  *
+    * The designers of this dataset have done as much as they can to protect the confidentiality of the voice recordings contributors. However, because of the nature of voice recordings being biometric, there is some degree where a person may know who is speaking if they have ever heard them speaking. Therefore, the users of this dataset should use this dataset ethically which is to follow what the Mozilla Foundation have asked the dataset users to do with the dataset.  
 
 
 
