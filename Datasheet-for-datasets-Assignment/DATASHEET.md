@@ -1,8 +1,8 @@
-# Datasheet: *Your Dataset Name Here*
+# Datasheet: *Mozilla Common Voice Dataset*
 
 Author: *Willie Macharia*
 
-Organization: *Your Organization Here*
+Organization: *UC Berkeley School of Information*
 
 
 ## Motivation
@@ -11,19 +11,20 @@ Organization: *Your Organization Here*
 
 1. **For what purpose was the dataset created?** Was there a specific task in mind? Was there a specific gap that needed to be filled? Please provide a description.
 
-	*Your Answer Here*
+	*This dataset was created to address a big gap in speech-to-text machine learning applications. Most of the existing speech-to-text datasets focused mainly on English, leaving many languages and communities underrepresented. Among of the underrepresented languages are the Asian and Africa languages. The existing datasets made it difficult to build speech-to-text applications that reflect the diversity of how people actually speak around the world. This dataset was designed to change that, by including a wide range of languages and accents so that speech-to-text technology can  be developed in a more inclusive and accessible to everyone. *
+
 
 2. **Who created this dataset (e.g. which team, research group) and on behalf of which entity (e.g. company, institution, organization)**?
 
-	*Your Answer Here*
+	*This dataset was created through crowdsourcing model where Mozilla mobilized volunteers across the world to contribute their voices and also validate other volunteers' contributions. Volunteers contributes sentences written in their language and then other volunteers uses Mozilla Common Voice platform to read those sentences aloud. The voices are then validated by volunteers after which Mozilla releases a new version of the datasheet.   *
 
 3. **What support was needed to make this dataset?** (e.g. who funded the creation of the dataset? If there is an associated grant, provide the name of the grantor and the grant name and number, or if it was supported by a company or government agency, give those details.)
 
-	*Your Answer Here*
+	*The Common Voice Dataset is funded by Mozilla Foundation. Mozilla Foundations receives donations and philanthropic grants from individual donors and corporate donors. Mozilla Foundation have recognised donations from NVIDIA, Gates Foundation, GIZ and FCDO. *
 
 4. **Any other comments?**
 
-	*Your Answer Here*
+	*This is an active dataset that a new version gets released after every 3 months. It was launched in 2017 and the latest version has audios from 137 different languages across the world. *
 
 
 ## Composition
@@ -32,19 +33,19 @@ Organization: *Your Organization Here*
 
 1. **What do the instances that comprise the dataset represent (e.g. documents, photos, people, countries)?** Are there multiple types of instances (e.g. movies, users, and ratings; people and interactions between them; nodes and edges)? Please provide a description.
 
-	*Your Answer Here*
+	*The dataset contains audio files in MP3 format with their corresponding text transcriptions. There is an option to add age, sex and accent of the speaker.*
 
 2. **How many instances are there in total (of each type, if appropriate)?**
 
-	*Your Answer Here*
+	*The current version of the dataset is Common Voice Corpus 22.0 which has 97,925 audio files with their corresponding transcribed texts. The total combined time of all the audios files is 3,718 hours. *
 
 3. **Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set?** If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (e.g. geographic coverage)? If so, please describe how this representativeness was validated/verified. If it is not representative of the larger set, please describe why not (e.g. to cover a more diverse range of instances, because instances were withheld or unavailable).
 
-	*Your Answer Here*
+	*This dataset is a sample and not a complete set of all spoken languages in the world. It is made up of audios contributed by volunteers who choose to participate through the Common Voice platform. Because contributions depend on who has internet access, interest, and time to record, the dataset does not fully represent all speakers of a language or region. Some languages, like English, have a very large number of audios, while others have only a few. Within each language, certain accents, age groups, and genders are often overrepresented compared to others. Mozilla Foundation and the community work to improve coverage by inviting contributions from underrepresented groups, but the dataset is not statistically representative of the global population. Instead, it reflects the voices of those who actively participated, which means biases in geographic and demographic coverage remain.*
 
 4. **What data does each instance consist of?** "Raw" data (e.g. unprocessed text or images) or features? In either case, please provide a description.
 
-	*Your Answer Here*
+	*Each instance contains unprocessed audio file in MP3 format and with its corresponding text.  An instance may have metadat of the speaker that has age, sex and accent.*
 
 5. **Is there a label or target associated with each instance?** If so, please provide a description.
 
