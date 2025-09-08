@@ -11,20 +11,20 @@ Organization: *UC Berkeley School of Information*
 
 1. **For what purpose was the dataset created?** Was there a specific task in mind? Was there a specific gap that needed to be filled? Please provide a description.
 
-	*This dataset was created to address a big gap in speech-to-text machine learning applications. Most of the existing speech-to-text datasets focused mainly on English, leaving many languages and communities underrepresented. Among of the underrepresented languages are the Asian and Africa languages. The existing datasets made it difficult to build speech-to-text applications that reflect the diversity of how people actually speak around the world. This dataset was designed to change that, by including a wide range of languages and accents so that speech-to-text technology can  be developed in a more inclusive and accessible to everyone. *
+	* This dataset was created to address a big gap in speech-to-text machine learning applications. Most of the existing speech-to-text datasets focused mainly on English, leaving many languages and communities underrepresented. Among of the underrepresented languages are the Asian and Africa languages. The existing datasets made it difficult to build speech-to-text applications that reflect the diversity of how people actually speak around the world. This dataset was designed to change that, by including a wide range of languages and accents so that speech-to-text technology can  be developed in a more inclusive and accessible to everyone. *
 
 
 2. **Who created this dataset (e.g. which team, research group) and on behalf of which entity (e.g. company, institution, organization)**?
 
-	*This dataset was created through crowdsourcing model where Mozilla mobilized volunteers across the world to contribute their voices and also validate other volunteers' contributions. Volunteers contributes sentences written in their language and then other volunteers uses Mozilla Common Voice platform to read those sentences aloud. The voices are then validated by volunteers after which Mozilla releases a new version of the datasheet.   *
+	* This dataset was created through crowdsourcing model where Mozilla mobilized volunteers across the world to contribute their voices and also validate other volunteers' contributions. Volunteers contributes sentences written in their language and then other volunteers uses Mozilla Common Voice platform to read those sentences aloud. The voices are then validated by volunteers after which Mozilla releases a new version of the datasheet.   *
 
 3. **What support was needed to make this dataset?** (e.g. who funded the creation of the dataset? If there is an associated grant, provide the name of the grantor and the grant name and number, or if it was supported by a company or government agency, give those details.)
 
-	*The Common Voice Dataset is funded by Mozilla Foundation. Mozilla Foundations receives donations and philanthropic grants from individual donors and corporate donors. Mozilla Foundation have recognised donations from NVIDIA, Gates Foundation, GIZ and FCDO. *
+	* The Common Voice Dataset is funded by Mozilla Foundation. Mozilla Foundations receives donations and philanthropic grants from individual donors and corporate donors. Mozilla Foundation have recognised donations from NVIDIA, Gates Foundation, GIZ and FCDO. *
 
 4. **Any other comments?**
 
-	*This is an active dataset that a new version gets released after every 3 months. It was launched in 2017 and the latest version has audios from 137 different languages across the world. *
+	* This is an active dataset that a new version gets released after every 3 months. It was launched in 2017 and the latest version has audios from 137 different languages across the world. *
 
 
 ## Composition
