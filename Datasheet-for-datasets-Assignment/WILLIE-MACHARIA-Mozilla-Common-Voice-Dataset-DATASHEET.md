@@ -16,7 +16,7 @@ Organization: *UC Berkeley School of Information*
 
 2. **Who created this dataset (e.g. which team, research group) and on behalf of which entity (e.g. company, institution, organization)**?
 
-	* This dataset was created through crowdsourcing model where Mozilla mobilized volunteers across the world to contribute their voices and also validate other volunteers' contributions. Volunteers contributes sentences written in their language and then other volunteers uses Mozilla Common Voice platform to read those sentences aloud. The voices are then validated by volunteers after which Mozilla releases a new version of the datasheet.   
+	* This dataset was created through crowdsourcing model where Mozilla mobilized volunteers across the world to contribute their voices and also validate other volunteers' contributions. Volunteers contributes sentences written in their language and then other volunteers uses Mozilla Common Voice platform to read those sentences aloud. The voices are then validated by volunteers after which Mozilla releases a new version of the dataset.   
 
 3. **What support was needed to make this dataset?** (e.g. who funded the creation of the dataset? If there is an associated grant, provide the name of the grantor and the grant name and number, or if it was supported by a company or government agency, give those details.)
 
