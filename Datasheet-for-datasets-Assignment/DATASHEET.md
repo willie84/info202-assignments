@@ -11,20 +11,20 @@ Organization: *UC Berkeley School of Information*
 
 1. **For what purpose was the dataset created?** Was there a specific task in mind? Was there a specific gap that needed to be filled? Please provide a description.
 
-	* This dataset was created to address a big gap in speech-to-text machine learning applications. Most of the existing speech-to-text datasets focused mainly on English, leaving many languages and communities underrepresented. Among of the underrepresented languages are the Asian and Africa languages. The existing datasets made it difficult to build speech-to-text applications that reflect the diversity of how people actually speak around the world. This dataset was designed to change that, by including a wide range of languages and accents so that speech-to-text technology can  be developed in a more inclusive and accessible to everyone. *
+	* This dataset was created to address a big gap in speech-to-text machine learning applications. Most of the existing speech-to-text datasets focused mainly on English, leaving many languages and communities underrepresented. Among of the underrepresented languages are the Asian and Africa languages. The existing datasets made it difficult to build speech-to-text applications that reflect the diversity of how people actually speak around the world. This dataset was designed to change that, by including a wide range of languages and accents so that speech-to-text technology can  be developed in a more inclusive and accessible to everyone. 
 
 
 2. **Who created this dataset (e.g. which team, research group) and on behalf of which entity (e.g. company, institution, organization)**?
 
-	* This dataset was created through crowdsourcing model where Mozilla mobilized volunteers across the world to contribute their voices and also validate other volunteers' contributions. Volunteers contributes sentences written in their language and then other volunteers uses Mozilla Common Voice platform to read those sentences aloud. The voices are then validated by volunteers after which Mozilla releases a new version of the datasheet.   *
+	* This dataset was created through crowdsourcing model where Mozilla mobilized volunteers across the world to contribute their voices and also validate other volunteers' contributions. Volunteers contributes sentences written in their language and then other volunteers uses Mozilla Common Voice platform to read those sentences aloud. The voices are then validated by volunteers after which Mozilla releases a new version of the datasheet.   
 
 3. **What support was needed to make this dataset?** (e.g. who funded the creation of the dataset? If there is an associated grant, provide the name of the grantor and the grant name and number, or if it was supported by a company or government agency, give those details.)
 
-	* The Common Voice Dataset is funded by Mozilla Foundation. Mozilla Foundations receives donations and philanthropic grants from individual donors and corporate donors. Mozilla Foundation have recognised donations from NVIDIA, Gates Foundation, GIZ and FCDO. *
+	* The Common Voice Dataset is funded by Mozilla Foundation. Mozilla Foundations receives donations and philanthropic grants from individual donors and corporate donors. Mozilla Foundation have recognised donations from NVIDIA, Gates Foundation, GIZ and FCDO. 
 
 4. **Any other comments?**
 
-	* This is an active dataset that a new version gets released after every 3 months. It was launched in 2017 and the latest version has audios from 137 different languages across the world. *
+	* This is an active dataset that a new version gets released after every 3 months. It was launched in 2017 and the latest version has audios from 137 different languages across the world. 
 
 
 ## Composition
@@ -33,19 +33,19 @@ Organization: *UC Berkeley School of Information*
 
 1. **What do the instances that comprise the dataset represent (e.g. documents, photos, people, countries)?** Are there multiple types of instances (e.g. movies, users, and ratings; people and interactions between them; nodes and edges)? Please provide a description.
 
-	* The dataset contains audio files in MP3 format with their corresponding text transcriptions. There is an option to add age, sex and accent of the speaker.*
+	* The dataset contains audio files in MP3 format with their corresponding text transcriptions. There is an option to add age, sex and accent of the speaker.
 
 2. **How many instances are there in total (of each type, if appropriate)?**
 
-	* The current version of the dataset is Common Voice Corpus 22.0 which has 97,925 audio files with their corresponding transcribed texts. The total combined time of all the audios files is 3,718 hours. *
+	* The current version of the dataset is Common Voice Corpus 22.0 which has 97,925 audio files with their corresponding transcribed texts. The total combined time of all the audios files is 3,718 hours. 
 
 3. **Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set?** If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (e.g. geographic coverage)? If so, please describe how this representativeness was validated/verified. If it is not representative of the larger set, please describe why not (e.g. to cover a more diverse range of instances, because instances were withheld or unavailable).
 
-	* This dataset is a sample and not a complete set of all spoken languages in the world. It is made up of audios contributed by volunteers who choose to participate through the Common Voice platform. Because contributions depend on who has internet access, interest, and time to record, the dataset does not fully represent all speakers of a language or region. Some languages, like English, have a very large number of audios, while others have only a few. Within each language, certain accents, age groups, and genders are often overrepresented compared to others. Mozilla Foundation and the community work to improve coverage by inviting contributions from underrepresented groups, but the dataset is not statistically representative of the global population. Instead, it reflects the voices of those who actively participated, which means biases in geographic and demographic coverage remain.*
+	* This dataset is a sample and not a complete set of all spoken languages in the world. It is made up of audios contributed by volunteers who choose to participate through the Common Voice platform. Because contributions depend on who has internet access, interest, and time to record, the dataset does not fully represent all speakers of a language or region. Some languages, like English, have a very large number of audios, while others have only a few. Within each language, certain accents, age groups, and genders are often overrepresented compared to others. Mozilla Foundation and the community work to improve coverage by inviting contributions from underrepresented groups, but the dataset is not statistically representative of the global population. Instead, it reflects the voices of those who actively participated, which means biases in geographic and demographic coverage remain.
 
 4. **What data does each instance consist of?** "Raw" data (e.g. unprocessed text or images) or features? In either case, please provide a description.
 
-	* Each instance contains unprocessed audio file in MP3 format and with its corresponding text.  An instance may have metadata of the speaker that has age, sex and accent.*
+	* Each instance contains unprocessed audio file in MP3 format and with its corresponding text.  An instance may have metadata of the speaker that has age, sex and accent.
 
 5. **Is there a label or target associated with each instance?** If so, please provide a description.
 
@@ -124,111 +124,50 @@ Organization: *UC Berkeley School of Information*
 	* According to Mozilla Foundation, all the users of this dataset have to declare that they will not attempt to identify the contributors. I think this is important as this is dataset that has some sensitive information. *
 
 
-## Collection
+## Legal & Ethical Considerations
 
-*As with the previous section, dataset creators should read through these questions prior to any data collection to flag potential issues and then provide answers once collection is complete. In addition to the goals of the prior section, the answers to questions here may provide information that allow others to reconstruct the dataset without access to it.*
+*This section, describes the dataset Legal & Ethical Considerations*
 
-1. **How was the data associated with each instance acquired?** Was the data directly observable (e.g. raw text, movie ratings), reported by subjects (e.g. survey responses), or indirectly inferred/derived from other data (e.g. part-of-speech tags, model-based guesses for age or language)? If data was reported by subjects or indirectly inferred/derived from other data, was the data validated/verified? If so, please describe how.
+1. **If the dataset relates to people (e.g., their attributes) or was generated by people, were they informed about the data collection?** (e.g., datasets that collect writing, photos, interactions, transactions, etc.)
 
-	*Your Answer Here*
+    * Yes, contributors were informed via the Common Voice platform that to contribute to the datasets, they had to adhere to Mozilla Foundation Common Voice Terms. The terms states that voice recordings and optional demographic information would be collected to create an open dataset for training speech-to-text machine learning applications.
 
-2. **What mechanisms or procedures were used to collect the data (e.g. hardware apparatus or sensor, manual human curation, software program, software API)?** How were these mechanisms or procedures validated?
+2. **If it relates to other ethically protected subjects, have appropriate obligations been met?** (e.g., medical data might include information collected from animals)
 
-	*Your Answer Here*
+    * Not applicable. This dataset only involves human voice recordings and does not include ethically protected subjects such as animals or medical patients.*
 
-3. **If the dataset is a sample from a larger set, what was the sampling strategy (e.g. deterministic, probabilistic with specific sampling probabilities)?**
+3. **If it relates to people, were there any ethical review applications/reviews/approvals?** (e.g. Institutional Review Board applications)
 
-	*Your Answer Here*
+    * In this dataset, there is no formal Institutional Review Board that is publicly documented. According to Mozilla Foundation, the dataset is driven by the public where it is contributed and validated by the public. Mozilla Foundation also follows its internal ethical guidelines and ensures voluntary participation and public use licensing.*
 
-4. **Who was involved in the data collection process (e.g. students, crowdworkers, contractors) and how were they compensated (e.g. how much were crowdworkers paid)?**
+4. **If it relates to people, were they told what the dataset would be used for and did they consent?** What community norms exist for data collected from human communications? If consent was obtained, how? Were the people provided with any mechanism to revoke their consent in the future or for certain uses?
 
-	*Your Answer Here*
+    * The voice recordings contributors are informed that their voices would be used to develop speech-to-text machine learning models and applications. Contributors give voluntary consent when they submit recordings on the common voice platform under a CC0 license. Contributors who have an account, have the permission to delete their account and also request Mozilla Foundation to remove their recordings from the dataset. Contributors with no account don't have a way to get their recordings withdrawn from the datasets as contributing with no account means that your voice recordings are associated with a random user id.*
 
-5. **Over what timeframe was the data collected?** Does this timeframe match the creation timeframe of the data associated with the instances (e.g. recent crawl of old news articles)? If not, please describe the timeframe in which the data associated with the instances was created. Finally, list when the dataset was first published.
+5. **If it relates to people, could this dataset expose people to harm or legal action?** (e.g., financial, social or otherwise) What was done to mitigate or reduce the potential for harm?
 
-	*Your Answer Here*
+    * Voice recordings forms part of human biometric data and can be used to identify individuals. Demographic data can also be used to narrow down the identities of the contributors. However, in this dataset, contributors identification has been made difficult by using hashed client IDs which anonymized the contributors.*
 
-7. **Were any ethical review processes conducted (e.g. by an institutional review board)?** If so, please provide a description of these review processes, including the outcomes, as well as a link or other access point to any supporting documentation.
+6. **If it relates to people, does it unfairly advantage or disadvantage a particular social group?** In what ways? How was this mitigated?
 
-	*Your Answer Here*
+    * Since this dataset is created through crowdsourcing, it is inherently that some groups and languages will be overrepresented moreso social groups or areas that have good internet connection. Mozilla Foundation do encourage contributions from the underrepresented groups, but skew remains. Mozilla Foundation also advises the dataset users to account for any bias in their machine learning modelling.*
 
-8. **Does the dataset relate to people?** If not, you may skip the remainder of the questions in this section.
+7. **If it relates to people, were they provided with privacy guarantees?** If so, what guarantees and how are these ensured?
 
-	*Your Answer Here*
+    * The privacy guarantee given to voice recordings contributors is that none of their personal identifiable information will be associated with the dataset. A hashed client IDs will be used to identify each contributor but no direct identifies.
 
-9. **Did you collect the data from the individuals in question directly, or obtain it via third parties or other sources (e.g. websites)?**
+8. **Does the dataset comply with the EU General Data Protection Regulation (GDPR)?** Does it comply with any other standards, such as the US Equal Employment Opportunity Act?
 
-	*Your Answer Here*
+    * This dataset does comply with EU GDPR since no personally identifiable information (PII) is being collected and exposed. The US Equal Employment Opportunity Act does not apply to this dataset as no employment-related data is included.*
 
-10. **Were the individuals in question notified about the data collection?** If so, please describe (or show with screenshots or other information) how notice was provided, and provide a link or other access point to, or otherwise reproduce, the exact language of the notification itself.
+9. **Does the dataset contain information that might be considered sensitive or confidential?** (e.g., personally identifying information)
 
-	*Your Answer Here*
+   * Since human recordings are part of human biometric data, this dataset is considered to have some sensitive data. There is also optional demographic data which is age and gender which is provided by the voice contributor on a voluntary basis.
 
-11. **Did the individuals in question consent to the collection and use of their data?** If so, please describe (or show with screenshots or other information) how consent was requested and provided, and provide a link or other access point to, or otherwise reproduce, the exact language to which the individuals consented.
+10. **Any other comments?**
 
-	*Your Answer Here*
+    * The designers of this dataset have done as much as they can to protect the confidentiality of the voice recordings contributors. However, because of the nature of voice recordings being biometric, there is some degree where a person may know who is speaking if they have ever heard them speaking. Therefore, the users of this dataset should use this dataset ethically which is to follow what the Mozilla Foundation have asked the dataset users to do with the dataset.  *
 
-12. **If consent was obtained, were the consenting individuals provided with a mechanism to revoke their consent in the future or for certain uses?** If so, please provide a description, as well as a link or other access point to the mechanism (if appropriate).
-
-	*Your Answer Here*
-
-13. **Has an analysis of the potential impact of the dataset and its use on data subjects (e.g. a data protection impact analysis) been conducted?** If so, please provide a description of this analysis, including the outcomes, as well as a link or other access point to any supporting documentation.
-
-	*Your Answer Here*
-
-14. **Any other comments?**
-
-	*Your Answer Here*
-
-
-## Preprocessing / Cleaning / Labeling
-
-*Dataset creators should read through these questions prior to any pre-processing, cleaning, or labeling and then provide answers once these tasks are complete. The questions in this section are intended to provide dataset consumers with the information they need to determine whether the “raw” data has been processed in ways that are compatible with their chosen tasks. For example, text that has been converted into a “bag-of-words” is not suitable for tasks involving word order.*
-
-1. **Was any preprocessing/cleaning/labeling of the data done (e.g. discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)?** If so, please provide a description. If not, you may skip the remainder of the questions in this section.
-
-	*Your Answer Here*
-
-2. **Was the "raw" data saved in addition to the preprocessed/cleaned/labeled data (e.g. to support unanticipated future uses)?** If so, please provide a link or other access point to the "raw" data.
-
-	*Your Answer Here*
-
-3. **Is the software used to preprocess/clean/label the instances available?** If so, please provide a link or other access point.
-
-	*Your Answer Here*
-
-4. **Any other comments?**
-
-	*Your Answer Here*
-
-
-## Uses
-
-*These questions are intended to encourage dataset creators to reflect on the tasks  for  which  the  dataset  should  and  should  not  be  used.  By  explicitly highlighting these tasks, dataset creators can help dataset consumers to make informed decisions, thereby avoiding potential risks or harms.*
-
-1. **Has the dataset been used for any tasks already?** If so, please provide a description.
-
-	*Your Answer Here*
-
-2. **Is there a repository that links to any or all papers or systems that use the dataset?** If so, please provide a link or other access point.
-
-	*Your Answer Here*
-
-3. **What (other) tasks could the dataset be used for?**
-
-	*Your Answer Here*
-
-4. **Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses?** For example, is there anything that a future user might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g. stereotyping, quality of service issues) or other undesirable harms (e.g. financial harms, legal risks) If so, please provide a description. Is there anything a future user could do to mitigate these undesirable harms?
-
-	*Your Answer Here*
-
-5. **Are there tasks for which the dataset should not be used?** If so, please provide a description.
-
-	*Your Answer Here*
-
-6. **Any other comments?**
-
-	*Your Answer Here*
 
 
 ## Distribution
@@ -237,31 +176,31 @@ Organization: *UC Berkeley School of Information*
 
 1. **Will the dataset be distributed to third parties outside of the entity (e.g. company, institution, organization) on behalf of which the dataset was created?** If so, please provide a description.
 
-	*Your Answer Here*
+	* Yes. The dataset is open and it is hosted by Mozilla Foundation and a link to download the dataset is provided publicly. Mozilla Foundation researchers, developers, companies, and communities around the world to use the dataset and it is licensed under a CC0 (public domain) license.
 
 2. **How will the dataset will be distributed (e.g. tarball on website, API, GitHub)?** Does the dataset have a digital object identifier (DOI)?
 
-	*Your Answer Here*
+	* The dataset is shared through a link to download a tarball. There exists also a GitHub repository that  describes the dataset here: https://github.com/common-voice/common-voice 
 
 3. **When will the dataset be distributed?**
 
-	*Your Answer Here*
+	* The dataset has already been distributed and its first release was on 24th February 2019. The current version of the dataset is version 22.0 and new versions are released every 3 months.
 
 4. **Will the dataset be distributed under a copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?** If so, please describe this license and/or ToU, and provide a link or other access point to, or otherwise reproduce, any relevant licensing terms or ToU, as well as any fees associated with these restrictions.
 
-	*Your Answer Here*
+	* The dataset is distributed under the Public Licence CC0 meaning the users can use, share and build on top of it without any restrictions. Here is the link to the license definition: https://creativecommons.org/publicdomain/zero/1.0/
 
 5. **Have any third parties imposed IP-based or other restrictions on the data associated with the instances?** If so, please describe these restrictions, and provide a link or other access point to, or otherwise reproduce, any relevant licensing terms, as well as any fees associated with these restrictions.
 
-	*Your Answer Here*
+	* No, there are no third parties imposed IP-based restrictions as everything is under the public license CCO. 
 
 6. **Do any export controls or other regulatory restrictions apply to the dataset or to individual instances?** If so, please describe these restrictions, and provide a link or other access point to, or otherwise reproduce, any supporting documentation.
 
-	*Your Answer Here*
+	* There are no export controls on this dataset. It is available worldwide and anyone can download it and use it. 
 
 7. **Any other comments?**
 
-	*Your Answer Here*
+	* This dataset is open to use and accessible to everyone in the world which aligns well with the goal of the project which is to democratise access to speech-to-text dataset.
 
 
 ## Maintenance
