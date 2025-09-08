@@ -238,3 +238,9 @@ Organization: *UC Berkeley School of Information*
 8. **Any other comments?**
 
 	* Through the combined efforts from Mozilla Foundation and the Common Voice Community, this dataset has a good maintenance process.  
+
+
+* Credits for this GitHub Markdown : https://github.com/JRMeyer/markdown-datasheet-for-datasets/blob/master/DATASHEET.md
+## References
+  * Ardila, R., Branson, M., Davis, K., Henretty, M., Kohler, M., Meyer, J., Morais, R., Saunders, L., Tyers, F. M. and Weber, G. (2020) "Common Voice: A Massively-Multilingual Speech Corpus". Proceedings of the 12th Conference on Language Resources and Evaluation (LREC 2020). pp. 4211—4215
+  * Gebru et al., Proceedings of the 5th Workshop on Fairness, Accountability, and Transparency in Machine Learning, 2018
