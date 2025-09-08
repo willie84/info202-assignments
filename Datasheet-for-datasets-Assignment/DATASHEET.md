@@ -33,23 +33,23 @@ Organization: *UC Berkeley School of Information*
 
 1. **What do the instances that comprise the dataset represent (e.g. documents, photos, people, countries)?** Are there multiple types of instances (e.g. movies, users, and ratings; people and interactions between them; nodes and edges)? Please provide a description.
 
-	*The dataset contains audio files in MP3 format with their corresponding text transcriptions. There is an option to add age, sex and accent of the speaker.*
+	* The dataset contains audio files in MP3 format with their corresponding text transcriptions. There is an option to add age, sex and accent of the speaker.*
 
 2. **How many instances are there in total (of each type, if appropriate)?**
 
-	*The current version of the dataset is Common Voice Corpus 22.0 which has 97,925 audio files with their corresponding transcribed texts. The total combined time of all the audios files is 3,718 hours. *
+	* The current version of the dataset is Common Voice Corpus 22.0 which has 97,925 audio files with their corresponding transcribed texts. The total combined time of all the audios files is 3,718 hours. *
 
 3. **Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set?** If the dataset is a sample, then what is the larger set? Is the sample representative of the larger set (e.g. geographic coverage)? If so, please describe how this representativeness was validated/verified. If it is not representative of the larger set, please describe why not (e.g. to cover a more diverse range of instances, because instances were withheld or unavailable).
 
-	*This dataset is a sample and not a complete set of all spoken languages in the world. It is made up of audios contributed by volunteers who choose to participate through the Common Voice platform. Because contributions depend on who has internet access, interest, and time to record, the dataset does not fully represent all speakers of a language or region. Some languages, like English, have a very large number of audios, while others have only a few. Within each language, certain accents, age groups, and genders are often overrepresented compared to others. Mozilla Foundation and the community work to improve coverage by inviting contributions from underrepresented groups, but the dataset is not statistically representative of the global population. Instead, it reflects the voices of those who actively participated, which means biases in geographic and demographic coverage remain.*
+	* This dataset is a sample and not a complete set of all spoken languages in the world. It is made up of audios contributed by volunteers who choose to participate through the Common Voice platform. Because contributions depend on who has internet access, interest, and time to record, the dataset does not fully represent all speakers of a language or region. Some languages, like English, have a very large number of audios, while others have only a few. Within each language, certain accents, age groups, and genders are often overrepresented compared to others. Mozilla Foundation and the community work to improve coverage by inviting contributions from underrepresented groups, but the dataset is not statistically representative of the global population. Instead, it reflects the voices of those who actively participated, which means biases in geographic and demographic coverage remain.*
 
 4. **What data does each instance consist of?** "Raw" data (e.g. unprocessed text or images) or features? In either case, please provide a description.
 
-	*Each instance contains unprocessed audio file in MP3 format and with its corresponding text.  An instance may have metadata of the speaker that has age, sex and accent.*
+	* Each instance contains unprocessed audio file in MP3 format and with its corresponding text.  An instance may have metadata of the speaker that has age, sex and accent.*
 
 5. **Is there a label or target associated with each instance?** If so, please provide a description.
 
-	*Each instance has a target label associated with it. The primary label is the text transcription that the speaker read aloud. The dataset is also accompanied by TSV files where each row of the file describes a single audio file. The TSV file row has the following according to the Common Voice Dataset GitHub here: https://github.com/common-voice/cv-dataset/tree/main,
+	* Each instance has a target label associated with it. The primary label is the text transcription that the speaker read aloud. The dataset is also accompanied by TSV files where each row of the file describes a single audio file. The TSV file row has the following according to the Common Voice Dataset GitHub here: https://github.com/common-voice/cv-dataset/tree/main,
     * client_id – This is hashed ID for the speaker (not personally identifying).
 
      * path – This is the relative file path to the audio clip. 
@@ -64,23 +64,23 @@ Organization: *UC Berkeley School of Information*
 
 6. **Is any information missing from individual instances?** If so, please provide a description, explaining why this information is missing (e.g. because it was unavailable). This does not include intentionally removed information, but might include, e.g. redacted text.
 
-	*The demographic metadata might be missing for some instances as it is optional and depends on the speaker choosing to provide the information or not. The up_votes / down_votes data may also be missing for some audios that have not been reviewed by the community.  *
+	* The demographic metadata might be missing for some instances as it is optional and depends on the speaker choosing to provide the information or not. The up_votes / down_votes data may also be missing for some audios that have not been reviewed by the community.  *
 
 7. **Are relationships between individual instances made explicit (e.g. users' movie ratings, social network links)?** If so, please describe how these relationships are made explicit.
 
-	*No there is no explicit relationships in the dataset as each audio file is treated independently. There is a hashed client_id field associated with each audio, but it is only for tracking audios coming from contributors for data validation. There is no social network links or connections between the users as up_votes and down_votes only indicate if an audio files has been agreed between the users.   *
+	* No there is no explicit relationships in the dataset as each audio file is treated independently. There is a hashed client_id field associated with each audio, but it is only for tracking audios coming from contributors for data validation. There is no social network links or connections between the users as up_votes and down_votes only indicate if an audio files has been agreed between the users.   *
 
 8. **Are there recommended data splits (e.g. training, development/validation, testing)?** If so, please provide a description of these splits, explaining the rationale behind them.
 
-	*Yes, there are recommended data splits in this dataset which are training, dev and test splits. Any demographic data that is present is applied to the entire dataset to create the splits.  According to the Common Voice Dataset GitHub here: https://github.com/common-voice/cv-dataset/tree/main, each version of the dataset has new set of train, dev and test to avoid reproducing and perpetuating demographic skews. The rationale of recreating the splits ensure that machine learning models that are created off this dataset are generalized better to handle unseen speakers and to reduce bias amplification. *
+	* Yes, there are recommended data splits in this dataset which are training, dev and test splits. Any demographic data that is present is applied to the entire dataset to create the splits.  According to the Common Voice Dataset GitHub here: https://github.com/common-voice/cv-dataset/tree/main, each version of the dataset has new set of train, dev and test to avoid reproducing and perpetuating demographic skews. The rationale of recreating the splits ensure that machine learning models that are created off this dataset are generalized better to handle unseen speakers and to reduce bias amplification. *
 
 9. **Are there any errors, sources of noise, or redundancies in the dataset?** If so, please provide a description.
 
-	*Yes there are some errors in the dataset. One of the biggest errors is the transcription mismatch but this controlled by having the up_votes and down_votes which helps to mark the audios that doesn't match the text as invalid. Since this is a crowdsourced  project, volunteers record themselves in  uncontrolled environments which may have overlapping voices. Since same text may be spoken by various speakers in different way, machine learning models might find learning accents from different languages very challenging.     *
+	* Yes there are some errors in the dataset. One of the biggest errors is the transcription mismatch but this controlled by having the up_votes and down_votes which helps to mark the audios that doesn't match the text as invalid. Since this is a crowdsourced  project, volunteers record themselves in  uncontrolled environments which may have overlapping voices. Since same text may be spoken by various speakers in different way, machine learning models might find learning accents from different languages very challenging.     *
 
 10. **Is the dataset self-contained, or does it link to or otherwise rely on external resources (e.g. websites, tweets, other datasets)?** If it links to or relies on external resources, a) are there guarantees that they will exist, and remain constant, over time; b) are there official archival versions of the complete dataset (i.e., including the external resources as they existed at the time the dataset was created); c) are there any restrictions (e.g. licenses, fees) associated with any of the external resources that might apply to a future user? Please provide descriptions of all external resources and any restrictions associated with them, as well as links or other access points, as appropriate.
 
-	*This dataset is self-contained and users don't need to click external website to get its access. This dataset is versioned and archived which means users can access same data as per when it was released. The older versions are important for reproducibility. The license for the dataset is CCO (public license) which means users can download, redistribute or modify the dataset with no issues.  *
+	* This dataset is self-contained and users don't need to click external website to get its access. This dataset is versioned and archived which means users can access same data as per when it was released. The older versions are important for reproducibility. The license for the dataset is CCO (public license) which means users can download, redistribute or modify the dataset with no issues.  *
 
 11. **Does the dataset contain data that might be considered confidential (e.g. data that is protected by legal privilege or by doctor-patient confidentiality, data that includes the content of individuals' non-public communications)?** If so, please provide a description.
 
@@ -88,27 +88,40 @@ Organization: *UC Berkeley School of Information*
 
 12. **Does the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety?** If so, please describe why.
 
-	*No, the dataset does not contain any offensive as the text that contributors read is given to them by Mozilla Foundation. However, through community validation, some audios have marked as invalid that is they do not match the text. There hasn't been any reported cases of whether these unmatching audios are insulting or offensive. *
+	* No, the dataset does not contain any offensive as the text that contributors read is given to them by Mozilla Foundation. However, through community validation, some audios have marked as invalid that is they do not match the text. There hasn't been any reported cases of whether these unmatching audios are insulting or offensive. *
 
 13. **Does the dataset relate to people?** If not, you may skip the remaining questions in this section.
 
-	*Yes, the dataset relates to the people. it is real people who record themselves speaking loud about the text they have been prompted by the voice platform. *
+	* Yes, the dataset relates to the people. it is real people who record themselves speaking loud about the text they have been prompted by the voice platform. *
 
 14. **Does the dataset identify any subpopulations (e.g. by age, gender)?** If so, please describe how these subpopulations are identified and provide a description of their respective distributions within the dataset.
 
-	*Your Answer Here*
+	* Yes, the dataset provides an optional way to provide the metadata of the volunteers. This metadata includes the age, sex and accent/region. Since this demographic data is optional, it is not in all audio files. According to the latest version 22.0, here are the respective distribution of the subpopulations: *
+    * Gender
+      * 44% Male
+      * 18% Female
+      * 39% did not provide any information. 
+    * Age:
+      * 6% < 20 years
+      * 25% Between 20 - 29 years 
+      * 14% Between 30 - 39 years 
+      * 9% Between 40 - 49 years 
+      * 5% Between 50 - 59 years 
+      * 4% Between 60 - 69 years 
+      * 1% Between 70 - 79 years 
+      * 36% did not provide any information.
 
 15. **Is it possible to identify individuals (i.e., one or more natural persons), either directly or indirectly (i.e., in combination with other data) from the dataset?** If so, please describe how.
 
-	*Your Answer Here*
+	* Yes but it will be quite hard and indirectly.  With the hashed client_id, you could group audios from each person. You could then listen to audios, and we know that audios are unique to each person that is the way each person speak is unique. If then there is any demographic information available, the identities would be narrowed down. However, according to the dataset, most of the demographic data is often missing.  *
 
 16. **Does the dataset contain data that might be considered sensitive in any way (e.g. data that reveals racial or ethnic origins, sexual orientations, religious beliefs, political opinions or union memberships, or locations; financial or health data; biometric or genetic data; forms of government identification, such as social security numbers; criminal history)?** If so, please provide a description.
 
-	*Your Answer Here*
+	* Since this dataset contains human recordings, it will be considered to have some sensitive data as human voice is biometric data. There is also optional demographic data which is age and gender. Combining this two may in a way lead to identification of the contributor.  *
 
 17. **Any other comments?**
 
-	*Your Answer Here*
+	* According to Mozilla Foundation, all the users of this dataset have to declare that they will not attempt to identify the contributors. I think this is important as this is dataset that has some sensitive information. *
 
 
 ## Collection
