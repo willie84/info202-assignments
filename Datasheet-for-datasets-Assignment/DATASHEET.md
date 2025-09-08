@@ -209,32 +209,32 @@ Organization: *UC Berkeley School of Information*
 
 1. **Who is supporting/hosting/maintaining the dataset?**
 
-	*Your Answer Here*
+	* This dataset is supported and maintained by Mozilla Foundation and the Common Voice community. Mozilla Foundation hosts the dataset on their website and also coordinates the regular dataset updates. The Common Voice community contributes to the voice recordings and validation.
 
 2. **How can the owner/curator/manager of the dataset be contacted (e.g. email address)?**
 
-	*Your Answer Here*
+	* The Mozilla Foundation Common Voice team can be contacted via email address here: commonvoice@mozilla.com. The Common Voice Team can also be contacted through their discord server here: https://discord.com/invite/4TjgEdq25Y.  There is also a discourse channel for topical conversations: https://discourse.mozilla.org/c/voice/239. There is also a Matrix forum for quick chats: https://chat.mozilla.org/#/room/#common-voice:mozilla.org
 
 3. **Is there an erratum?** If so, please provide a link or other access point.
 
-	*Your Answer Here*
+	* There is no formal erratum for this dataset but Mozilla Foundation provides a GitHub repository that shows the changes and fixes that have been made to the dataset. Here is the change logs: https://github.com/common-voice/cv-dataset/blob/main/CHANGELOG.md 
 
 4. **Will the dataset be updated (e.g. to correct labeling errors, add new instances, delete instances)?** If so, please describe how often, by whom, and how updates will be communicated to users (e.g. mailing list, GitHub)?
 
-	*Your Answer Here*
+	* Yes, the dataset is updated regularly and released after every three months. The Common Voice Community also validates various recordings by down voting any recordings that are erroneous. Mozilla Foundation then documents the changes and the updates to the dataset in the GitHub change log here: https://github.com/common-voice/cv-dataset/blob/main/CHANGELOG.md
 
 5. **If the dataset relates to people, are there applicable limits on the retention of the data associated with the instances (e.g. were individuals in question told that their data would be retained for a fixed period of time and then deleted)?** If so, please describe these limits and explain how they will be enforced.
 
-	*Your Answer Here*
+	* Mozilla Foundation has given contributors the ability to decide how long their data can be retained. If a contributor does not want their data to be retained, they can delete their account and request their voice recordings to be removed from dataset. Mozilla Foundation have warned the contributors that some deletion requests may not be honoured if the voice recordings cannot be linked with the user id. https://support.mozilla.org/en-US/kb/common-voice-accounts-managing-account-data
 
 6. **Will older versions of the dataset continue to be supported/hosted/maintained?** If so, please describe how. If not, please describe how its obsolescence will be communicated to users.
 
-	*Your Answer Here*
+	* Yes, the older versions of the dataset will be supported, hosted and maintained by Mozilla Foundation and the Common Voice community. The older versions will still be available through Mozilla Foundation website and any changes documented in the change log file hosted on GitHub. 
 
 7. **If others want to extend/augment/build on/contribute to the dataset, is there a mechanism for them to do so?** If so, please provide a description. Will these contributions be validated/verified? If so, please describe how. If not, why not? Is there a process for communicating/distributing these contributions to other users? If so, please provide a description.
 
-	*Your Answer Here*
+	* Yes, anyone can contribute to the dataset. Anyone can do new voice recordings and at the same time validate existing voice recordings. The existing community members will also have a chance to up vote or down vote any contributions. Updates and new releases will be communicated through the websites and GitHub.
 
 8. **Any other comments?**
 
-	*Your Answer Here*
+	* Through the combined efforts from Mozilla Foundation and the Common Voice Community, this dataset has a good maintenance process.  
