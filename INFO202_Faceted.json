@@ -1,184 +1,436 @@
 [
-  {
-    "title": "Women playing volleyball inside court",
-    "artist": "Vince Fleming",
-    "year": 2019,
-    "description": "Indoor volleyball game showing plaayer celebrating a point.",
-    "image": "https://unsplash.com/photos/women-playing-volleyball-inside-court-aZVpxRydiJk",
-    "Cost": "$50.00",
-    "Size": "Medium",
-    "Color": "Blue",
-    "Material": "Polyester",
-    "sport_type": {
-      "st_level0": "Team Sport",
-      "st_level1": "Team Sport > Volleyball",
-      "st_level2": "Team Sport > Volleyball > Indoor"
-    },
-    "Apparel": {
-      "apl_level0": "Active/Sportswear",
-      "apl_level1": "Active/Sportswear > Uniform",
-      "apl_level2": "Active/Sportswear > Uniform > Jersey & shorts"
-    },
-    "equipment_type": {
-      "et_level0": "Playing Gear",
-      "et_level1": "Playing Gear > Ball",
-      "et_level2": "Playing Gear > Ball > Volleyball"
-    }
-  },
-  {
-    "title": "Girls playing soccer",
-    "artist": "Kyle Pham",
-    "year": 2018,
-    "description": "Girl about to kick ball with team watching her.",
-    "image": "https://unsplash.com/photos/girls-playing-soccer-njuYs5kFJ3s",
-    "Cost": "$35.00",
-    "Size": "Small",
-    "Color": "Red",
-    "Material": "Synthetic Leather",
-    "sport_type": {
-      "st_level0": "Team Sport",
-      "st_level1": "Team Sport > Soccer",
-      "st_level2": "Team Sport > Soccer > Outdoor"
-    },
-    "Apparel": {
-      "apl_level0": "Active/Sportswear",
-      "apl_level1": "Active/Sportswear > Uniform",
-      "apl_level2": "Active/Sportswear > Uniform > Jersey & shorts"
-    },
-    "equipment_type": {
-      "et_level0": "Playing Gear",
-      "et_level1": "Playing Gear > Ball",
-      "et_level2": "Playing Gear > Ball > Soccerball"
-    }
-  },
-  {
-    "title": "A women holding a kettle in a gym",
-    "artist": "Marvin Cors",
-    "year": 2021,
-    "description": "Women holding kettle bell with both hands, mid excerise.",
-    "image": "https://unsplash.com/photos/a-woman-holding-a-kettle-in-a-gym-B9pSeGFMMA4 ",
-    "Cost": "$45.99",
-    "Size": "12kg",
-    "Color": "Black",
-    "Material": "Cast Iron",
-    "sport_type": {
-      "st_level0": "Individual Sport",
-      "st_level1": "Individual Sport > Strength Training",
-      "st_level2": "Individual Sport > Strength Training > Weightlifting"
-    },
-    "Apparel": {
-      "apl_level0": "Active/Sportswear",
-      "apl_level1": "Active/Sportswear > Workout Clothes",
-      "apl_level2": "Active/Sportswear > Workout Clothes > Sports bra & leggings"
-    },
-    "equipment_type": {
-      "et_level0": "Training Equipment",
-      "et_level1": "Training Equipment > Strength equipment",
-      "et_level2": "Training Equipment > Strength equipment > Kettle bell"
-    }
-  },
-  {
-    "title": "Four men playing double tennis during daytime",
-    "artist": "J Schiemann",
-    "year": 2019,
-    "description": "Male about to serve during a tennis game with 3 other males.",
-    "image": "https://unsplash.com/photos/four-men-playing-double-tennis-during-daytime-Z4Sxy1_3wdY",
-    "Cost": "$120.00",
-    "Size": "Standard (Grip 4)",
-    "Color": "White/Green",
-    "Material": "Graphite",
-    "sport_type": {
-      "st_level0": "Dual Sport",
-      "st_level1": "Dual Sport > Court games",
-      "st_level2": "Dual Sport > Court games > Tennis"
-    },
-    "Apparel": {
-      "apl_level0": "Active/Sportswear",
-      "apl_level1": "Active/Sportswear > Bottoms",
-      "apl_level2": "Active/Sportswear > Bottoms > excerise shorts"
-    },
-    "equipment_type": {
-      "et_level0": "Playing Gear",
-      "et_level1": "Playing Gear > Hitting Implements",
-      "et_level2": "Playing Gear > Hitting Implements > Tennis Racket"
-    }
-  },
-  {
-    "title": "Ice Hockey Players on Ice Hockey Field",
-    "artist": "Matthieu Pétiard",
-    "year": 2020,
-    "description": "Two players from opposite teams colliding.",
-    "image": "https://unsplash.com/photos/ice-hockey-players-on-ice-hockey-field-Rat7IoXPHYc",
-    "Cost": "$180.00",
-    "Size": "Large",
-    "Color": "Black",
-    "Material": "Foam & Plastic",
-    "sport_type": {
-      "st_level0": "Team Sport",
-      "st_level1": "Team Sport > Hockey",
-      "st_level2": "Team Sport > Hockey > Ice Hockey"
-    },
-    "Apparel": {
-      "apl_level0": "Active/Sportswear",
-      "apl_level1": "Active/Sportswear > Uniform",
-      "apl_level2": "Active/Sportswear > Uniform > Jersey"
-    },
-    "equipment_type": {
-      "et_level0": "Protective Gear",
-      "et_level1": "Protective Gear > Pads",
-      "et_level2": "Protective Gear > Pads > Shouler and knee pads"
-    }
-  },
-  {
-    "title": "Man in green jacket riding snowboard on snow covered mountain during daytime",
-    "artist": "Damiano Lingauri",
-    "year": 2020,
-    "description": "Man snowboarding and doing a trick while holding his board mid-air.",
-    "image": "https://unsplash.com/photos/man-in-green-jacket-riding-snowboard-on-snow-covered-mountain-during-daytime-OKBP1D8Wr4c",
-    "Cost": "$89.99",
-    "Size": "Adult",
-    "Color": "Green",
-    "Material": "Polycarbonate",
-    "sport_type": {
-      "st_level0": "Individual Sport",
-      "st_level1": "Individual Sport > Snow sport",
-      "st_level2": "Individual Sport > Snow sport > Snowboarding"
-    },
-    "Apparel": {
-      "apl_level0": "Outwear",
-      "apl_level1": "Outwear > Snow apparel",
-      "apl_level2": "Outwear > Snow apparel > Snow pants & jacket"
-    },
-    "equipment_type": {
-      "et_level0": "Snow Gear",
-      "et_level1": "Snow Gear > Protective Gear",
-      "et_level2": "Snow Gear > Protective Gear > Snow Helmet"
-    }
-  },
-  {
-    "title": "Football players in red jersey shirt and red pants running on green grass field during daytime",
-    "artist": "Quino Ai",
-    "year": 2020,
-    "description": "red jersey team takcing opposing team for the ball.",
-    "image": "https://unsplash.com/photos/football-players-in-red-jersey-shirt-and-red-pants-running-on-green-grass-field-during-daytime-F_cJdcb5bSU",
-    "Cost": "$65.00",
-    "Size": "Youth",
-    "Color": "White",
-    "Material": "ABS Plastic",
-    "sport_type": {
-      "st_level0": "Team Sport",
-      "st_level1": "Team Sport > Football",
-      "st_level2": "Team Sport > Football > American Football"
-    },
-    "Apparel": {
-      "apl_level0": "Active/Sportswear",
-      "apl_level1": "Active/Sportswear > Uniform",
-      "apl_level2": "Active/Sportswear > Uniform > Jersey"
-    },
-    "equipment_type": {
-      "et_level0": "Protective Gear",
-      "et_level1": "Protective Gear > Pads",
-      "et_level2": "Protective Gear > Pads > Shoulder pads"
-    }
-  }
+   {
+      "title":"Women playing volleyball inside court",
+      "artist":"Vince Fleming",
+      "year":2019,
+      "description":"Indoor volleyball game showing plaayer celebrating a point.",
+      "image":"https://unsplash.com/photos/women-playing-volleyball-inside-court-aZVpxRydiJk",
+      "Cost":"$50.00",
+      "Size":"Medium",
+      "Color":"Blue",
+      "Material":"Polyester",
+      "sport_type":{
+         "st_level0":"Team Sport",
+         "st_level1":"Team Sport > Volleyball",
+         "st_level2":"Team Sport > Volleyball > Indoor"
+      },
+      "Apparel":{
+         "apl_level0":"Active/Sportswear",
+         "apl_level1":"Active/Sportswear > Uniform",
+         "apl_level2":"Active/Sportswear > Uniform > Jersey & shorts"
+      },
+      "equipment_type":{
+         "et_level0":"Playing Gear",
+         "et_level1":"Playing Gear > Ball",
+         "et_level2":"Playing Gear > Ball > Volleyball"
+      }
+   },
+   {
+      "title":"Girls playing soccer",
+      "artist":"Kyle Pham",
+      "year":2018,
+      "description":"Girl about to kick ball with team watching her.",
+      "image":"https://unsplash.com/photos/girls-playing-soccer-njuYs5kFJ3s",
+      "Cost":"$35.00",
+      "Size":"Small",
+      "Color":"Red",
+      "Material":"Synthetic Leather",
+      "sport_type":{
+         "st_level0":"Team Sport",
+         "st_level1":"Team Sport > Soccer",
+         "st_level2":"Team Sport > Soccer > Outdoor"
+      },
+      "Apparel":{
+         "apl_level0":"Active/Sportswear",
+         "apl_level1":"Active/Sportswear > Uniform",
+         "apl_level2":"Active/Sportswear > Uniform > Jersey & shorts"
+      },
+      "equipment_type":{
+         "et_level0":"Playing Gear",
+         "et_level1":"Playing Gear > Ball",
+         "et_level2":"Playing Gear > Ball > Soccerball"
+      }
+   },
+   {
+      "title":"A women holding a kettle in a gym",
+      "artist":"Marvin Cors",
+      "year":2021,
+      "description":"Women holding kettle bell with both hands, mid excerise.",
+      "image":"https://unsplash.com/photos/a-woman-holding-a-kettle-in-a-gym-B9pSeGFMMA4 ",
+      "Cost":"$45.99",
+      "Size":"12kg",
+      "Color":"Black",
+      "Material":"Cast Iron",
+      "sport_type":{
+         "st_level0":"Individual Sport",
+         "st_level1":"Individual Sport > Strength Training",
+         "st_level2":"Individual Sport > Strength Training > Weightlifting"
+      },
+      "Apparel":{
+         "apl_level0":"Active/Sportswear",
+         "apl_level1":"Active/Sportswear > Workout Clothes",
+         "apl_level2":"Active/Sportswear > Workout Clothes > Sports bra & leggings"
+      },
+      "equipment_type":{
+         "et_level0":"Training Equipment",
+         "et_level1":"Training Equipment > Strength equipment",
+         "et_level2":"Training Equipment > Strength equipment > Kettle bell"
+      }
+   },
+   {
+      "title":"Four men playing double tennis during daytime",
+      "artist":"J Schiemann",
+      "year":2019,
+      "description":"Male about to serve during a tennis game with 3 other males.",
+      "image":"https://unsplash.com/photos/four-men-playing-double-tennis-during-daytime-Z4Sxy1_3wdY",
+      "Cost":"$120.00",
+      "Size":"Standard (Grip 4)",
+      "Color":"White/Green",
+      "Material":"Graphite",
+      "sport_type":{
+         "st_level0":"Dual Sport",
+         "st_level1":"Dual Sport > Court games",
+         "st_level2":"Dual Sport > Court games > Tennis"
+      },
+      "Apparel":{
+         "apl_level0":"Active/Sportswear",
+         "apl_level1":"Active/Sportswear > Bottoms",
+         "apl_level2":"Active/Sportswear > Bottoms > excerise shorts"
+      },
+      "equipment_type":{
+         "et_level0":"Playing Gear",
+         "et_level1":"Playing Gear > Hitting Implements",
+         "et_level2":"Playing Gear > Hitting Implements > Tennis Racket"
+      }
+   },
+   {
+      "title":"Ice Hockey Players on Ice Hockey Field",
+      "artist":"Matthieu Pétiard",
+      "year":2020,
+      "description":"Two players from opposite teams colliding.",
+      "image":"https://unsplash.com/photos/ice-hockey-players-on-ice-hockey-field-Rat7IoXPHYc",
+      "Cost":"$180.00",
+      "Size":"Large",
+      "Color":"Black",
+      "Material":"Foam & Plastic",
+      "sport_type":{
+         "st_level0":"Team Sport",
+         "st_level1":"Team Sport > Hockey",
+         "st_level2":"Team Sport > Hockey > Ice Hockey"
+      },
+      "Apparel":{
+         "apl_level0":"Active/Sportswear",
+         "apl_level1":"Active/Sportswear > Uniform",
+         "apl_level2":"Active/Sportswear > Uniform > Jersey"
+      },
+      "equipment_type":{
+         "et_level0":"Protective Gear",
+         "et_level1":"Protective Gear > Pads",
+         "et_level2":"Protective Gear > Pads > Shouler and knee pads"
+      }
+   },
+   {
+      "title":"Man in green jacket riding snowboard on snow covered mountain during daytime",
+      "artist":"Damiano Lingauri",
+      "year":2020,
+      "description":"Man snowboarding and doing a trick while holding his board mid-air.",
+      "image":"https://unsplash.com/photos/man-in-green-jacket-riding-snowboard-on-snow-covered-mountain-during-daytime-OKBP1D8Wr4c",
+      "Cost":"$89.99",
+      "Size":"Adult",
+      "Color":"Green",
+      "Material":"Polycarbonate",
+      "sport_type":{
+         "st_level0":"Individual Sport",
+         "st_level1":"Individual Sport > Snow sport",
+         "st_level2":"Individual Sport > Snow sport > Snowboarding"
+      },
+      "Apparel":{
+         "apl_level0":"Outwear",
+         "apl_level1":"Outwear > Snow apparel",
+         "apl_level2":"Outwear > Snow apparel > Snow pants & jacket"
+      },
+      "equipment_type":{
+         "et_level0":"Snow Gear",
+         "et_level1":"Snow Gear > Protective Gear",
+         "et_level2":"Snow Gear > Protective Gear > Snow Helmet"
+      }
+   },
+   {
+      "title":"Girls playing soccer",
+      "artist":"Kyle Pham",
+      "year":2018,
+      "description":"Girl about to kick ball with team watching her.",
+      "image":"https://unsplash.com/photos/girls-playing-soccer-njuYs5kFJ3s",
+      "Cost":"$65.00",
+      "Size":"Youth",
+      "Color":"White",
+      "Material":"ABS Plastic",
+      "sport_type":{
+         "st_level0":"Team Sport",
+         "st_level1":"Team Sport > Soccer",
+         "st_level2":"Team Sport > Soccer > Outdoor"
+      },
+      "Apparel":{
+         "apl_level0":"Active/Sportswear",
+         "apl_level1":"Active/Sportswear > Uniform",
+         "apl_level2":"Active/Sportswear > Uniform > Jersey & shorts"
+      },
+      "equipment_type":{
+         "et_level0":"Snow Gear",
+         "et_level1":"Snow Gear > Protective Gear",
+         "et_level2":"Snow Gear > Protective Gear > Helmet"
+      }
+   },
+   {
+      "title":"Black Adidas shoes",
+      "artist":"Alex lanting",
+      "year":2019,
+      "description":"pair of black Adidas cleats on grass field.",
+      "image":"https://images.unsplash.com/photo-1571267434388-6a1df2649dce?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Cost":"$365.00",
+      "Size":"Medium",
+      "Color":"Black",
+      "Material":"Leather",
+      "sport_type":{
+         "st_level0":"Team Sport",
+         "st_level1":"Team Sport > Soccer",
+         "st_level2":"Team Sport > Soccer > Outdoor"
+      },
+      "Apparel":{
+         "apl_level0":"Active/Sportswear",
+         "apl_level1":"Active/Sportswear > Footwear",
+         "apl_level2":"Active/Sportswear > Footwear > Shoes"
+      }
+   },
+   {
+      "title":"Mountain Bike",
+      "artist":"Haidan Design",
+      "year":2018,
+      "description":"black hardtail mountain bike.",
+      "image":"https://images.unsplash.com/photo-1534150034764-046bf225d3fa?q=80&w=2676&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Cost":"$2865.00",
+      "Size":"Medium",
+      "Color":"Grey",
+      "Material":"Aluminium",
+      "sport_type":{
+         "st_level0":"Individual Sport",
+         "st_level1":"Individual Sport > Cycling",
+         "st_level2":"Individual Sport > Cycling > Mountain Cycling"
+      },
+      "equipment_type":{
+         "et_level0":"Training Equipment",
+         "et_level1":"Training Equipment > Bike and Cycles",
+         "et_level2":"Training Equipment > Bike and Cycles > Full Bike"
+      }
+   },
+   {
+      "title":"Road Bike",
+      "artist":"Mikkel Bech",
+      "year":2018,
+      "description":"black road bike.",
+      "image":"https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?q=80&w=2244&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Cost":"$2905.00",
+      "Size":"Large",
+      "Color":"Black",
+      "Material":"Steel Allez",
+      "sport_type":{
+         "st_level0":"Individual Sport",
+         "st_level1":"Individual Sport > Cycling",
+         "st_level2":"Individual Sport > Cycling > Road Cycling"
+      },
+      "equipment_type":{
+         "et_level0":"Training Equipment",
+         "et_level1":"Training Equipment > Bike and Cycles",
+         "et_level2":"Training Equipment > Bike and Cycles > Full Bike"
+      }
+   },
+   {
+      "title":"Road Helmet",
+      "artist":"Bady Abbas",
+      "year":2020,
+      "description":"black plastic helmet on gray wooden plank.",
+      "image":"https://images.unsplash.com/photo-1591511275477-88f079d88154?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Cost":"$205.00",
+      "Size":"Medium",
+      "Color":"Black",
+      "Material":"Plastic",
+      "sport_type":{
+         "st_level0":"Individual Sport",
+         "st_level1":"Individual Sport > Cycling",
+         "st_level2":"Individual Sport > Cycling > Road Cycling"
+      },
+      "equipment_type":{
+         "et_level0":"Protective Gear",
+         "et_level1":"Protective Gear > Helmets",
+         "et_level2":"Protective Gear > Helmets > Bike Helmets"
+      }
+   },
+   {
+      "title":"Hockey Stick",
+      "artist":"Guillaume Didelet",
+      "year":2023,
+      "description":"a group of young men playing a game of field hockey.",
+      "image":"https://images.unsplash.com/photo-1680010090584-5004654f7b37?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Cost":"$370.00",
+      "Size":"Medium",
+      "Color":"Black",
+      "Material":"Carbon Fibre",
+      "sport_type":{
+         "st_level0":"Team Sport",
+         "st_level1":"Team Sport > Hockey",
+         "st_level2":"Team Sport > Hockey > Field Hockey"
+      },
+      "equipment_type":{
+         "et_level0":"Playing Gear",
+         "et_level1":"Playing Gear > Hitting implements",
+         "et_level2":"Playing Gear > Hitting implements > Sticks"
+      }
+   },
+   {
+      "title":"Tennis Balls",
+      "artist":"Matthias David",
+      "year":2021,
+      "description":"green tennis ball on brown soil.",
+      "image":"https://images.unsplash.com/photo-1619891418559-17ac45dc2b70?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Cost":"$80.00",
+      "Size":"Medium",
+      "Color":"Green",
+      "Material":"Rubber",
+      "sport_type":{
+         "st_level0":"Mixed Sport",
+         "st_level1":"Mixed Sport > Court Games",
+         "st_level2":"Mixed Sport > Hockey > Tennis"
+      },
+      "equipment_type":{
+         "et_level0":"Playing Gear",
+         "et_level1":"Playing Gear > Balls",
+         "et_level2":"Playing Gear > Balls > Tennis Ball"
+      }
+   },
+   {
+      "title":"Table Tennis Ball",
+      "artist":"Lisa Keffer",
+      "year":2020,
+      "description":"red and white ball on green surface.",
+      "image":"https://images.unsplash.com/photo-1609432638531-5ef8d0507b90?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Cost":"$60.00",
+      "Size":"Small",
+      "Color":"White",
+      "Material":"Plastic",
+      "sport_type":{
+         "st_level0":"Mixed Sport",
+         "st_level1":"Mixed Sport > Court Games",
+         "st_level2":"Mixed Sport > Hockey > Table Tennis"
+      },
+      "equipment_type":{
+         "et_level0":"Playing Gear",
+         "et_level1":"Playing Gear > Balls",
+         "et_level2":"Playing Gear > Balls > Table Tennis Ball"
+      }
+   },
+   {
+      "title":"Table Tennis racquet",
+      "artist":"Cristina Anne Costello",
+      "year":2020,
+      "description":"Tennis balls and racquet..",
+      "image":"https://images.unsplash.com/photo-1602211847326-dd96f7c45f10?q=80&w=1315&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Cost":"$260.00",
+      "Size":"Medium",
+      "Color":"Blue",
+      "Material":"Carbon Fibre",
+      "sport_type":{
+         "st_level0":"Mixed Sport",
+         "st_level1":"Mixed Sport > Court Games",
+         "st_level2":"Mixed Sport > Hockey > Tennis"
+      },
+      "equipment_type":{
+         "et_level0":"Playing Gear",
+         "et_level1":"Playing Gear > Hitting implements",
+         "et_level2":"Playing Gear > Hitting implements > Rackets"
+      }
+   },
+   {
+      "title":"Cricket Bat",
+      "artist":"Village Cricket Co",
+      "year":2025,
+      "description":"A Village Cricket Co. bat with a bright green grip leans against a weathered dry-stone wall on a lush, rural verge. The pale, polished willow face shows the bold VCC logo in green and navy, catching soft overcast light. Wild grass and small plants crowd the base, while a grassy path runs alongside the wall into the background, fading in shallow focus. The scene feels calm and nostalgic, blending modern kit with timeless countryside textures..",
+      "image":"https://images.unsplash.com/photo-1758791184255-411236a49346?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Cost":"$350.00",
+      "Size":"Medium",
+      "Color":"Grey",
+      "Material":"Wooden",
+      "sport_type":{
+         "st_level0":"Team Sport",
+         "st_level1":"Team Sport > Bat Games",
+         "st_level2":"Team Sport > Bat Games > Cricket"
+      },
+      "equipment_type":{
+         "et_level0":"Playing Gear",
+         "et_level1":"Playing Gear > Hitting implements",
+         "et_level2":"Playing Gear > Hitting implements > Bats"
+      }
+   },
+   {
+      "title":"Cycling Skates",
+      "artist":"Joao Viegas",
+      "year":2024,
+      "description":"a person riding a skateboard on a snowy surface.",
+      "image":"https://images.unsplash.com/photo-1707125008053-763b4ff78731?q=80&w=2334&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Cost":"$350.00",
+      "Size":"Medium",
+      "Color":"White",
+      "Material":"Leather",
+      "sport_type":{
+         "st_level0":"Team Sport",
+         "st_level1":"Team Sport > Hockey",
+         "st_level2":"Team Sport > Hockey > Ice Hockey"
+      },
+      "Apparel":{
+         "apl_level0":"Active/Sportswear",
+         "apl_level1":"Active/Sportswear > Footwear",
+         "apl_level2":"Active/Sportswear > Footwear > Ice skates"
+      }
+   },
+   {
+      "title":"Cycling Shoes",
+      "artist":"Duane Seah",
+      "year":2023,
+      "description":"a close up of a person wearing white shoes",
+      "image":"https://images.unsplash.com/photo-1695223224571-8d61f62fad2c?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Cost":"$390.00",
+      "Size":"Large",
+      "Color":"White",
+      "Material":"Leather",
+      "sport_type":{
+         "st_level0":"Individual Sport",
+         "st_level1":"Individual Sport > Cycling",
+         "st_level2":"Individual Sport > Cycling > Road Cycling"
+      },
+      "Apparel":{
+         "apl_level0":"Active/Sportswear",
+         "apl_level1":"Active/Sportswear > Footwear",
+         "apl_level2":"Active/Sportswear > Footwear > Shoes"
+      }
+   },
+   {
+      "title":"Ice Hockey Apparel",
+      "artist":"Gerhard Crous",
+      "year":2019,
+      "description":"men playing hockey.",
+      "image":"https://images.unsplash.com/photo-1566442402565-791710ab21f0?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "Cost":"$250.00",
+      "Size":"Medium",
+      "Color":"Black",
+      "Material":"Cotton",
+      "sport_type":{
+         "st_level0":"Team Sport",
+         "st_level1":"Team Sport > Hockey",
+         "st_level2":"Team Sport > Hockey > Ice Hockey"
+      },
+      "Apparel":{
+         "apl_level0":"Active/Sportswear",
+         "apl_level1":"Active/Sportswear > Bottoms",
+         "apl_level2":"Active/Sportswear > Bottoms > Shorts"
+      }
+   }
 ]
