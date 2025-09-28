@@ -47,26 +47,95 @@
     }
  }
   {
-    "title": "Girls playing soccer",
-    "artist": "Kyle Pham",
-    "year": 2018,
-    "description": "Girl about to kick ball with team watching her.",
-    "image": "https://unsplash.com/photos/girls-playing-soccer-njuYs5kFJ3s",
+    "title": "A women holding a kettle in a gym",
+    "artist": "Marvin Cors",
+    "year": 2021,
+    "description": "Women holding kettle bell with both hands, mid excerise.",
+    "image": "https://unsplash.com/photos/a-woman-holding-a-kettle-in-a-gym-B9pSeGFMMA4 ",
     "sport_type": {
-      "st_level0": "Team Sport",
-      "st_level1": "Team Sport > Soccer",
-      "st_level2": "Team Sport > Soccer > Outdoor"
+      "st_level0": "Individual Sport",
+      "st_level1": "Individual Sport > Strength Training",
+      "st_level2": "Individual Sport > Strength Training > Weightlifting"
     },
     "Apparel": {
       "apl_level0": "Active/Sportswear",
-      "apl_level1": "Active/Sportswear > Uniform",
-      "apl_level2": "Active/Sportswear > Uniform > Jersey & shorts"
+      "apl_level1": "Active/Sportswear > Workout Clothes",
+      "apl_level2": "Active/Sportswear > Workout Clothes > Sports bra & leggings"
+    },
+    
+    "equipment_type": {
+      "et_level0": "Training Equipment",
+      "et_level1": "Training Equipment > Strength equipment",
+      "et_level2": "Training Equipment > Strength equipment > Kettle bell"
+    }
+ }
+  {
+    "title": "Four men playing double tennis during daytime",
+    "artist": "J Schiemann",
+    "year": 2019,
+    "description": "Male about to serve during a tennis game with 3 other males.",
+    "image": "https://unsplash.com/photos/four-men-playing-double-tennis-during-daytime-Z4Sxy1_3wdY",
+    "sport_type": {
+      "st_level0": "Dual Sport",
+      "st_level1": "Dual Sport > Court games",
+      "st_level2": "Dual Sport > Court games > Tennis"
+    },
+    "Apparel": {
+      "apl_level0": "Active/Sportswear",
+      "apl_level1": "Active/Sportswear > Bottoms",
+      "apl_level2": "Active/Sportswear > Bottoms > excerise shorts"
     },
     
     "equipment_type": {
       "et_level0": "Playing Gear",
-      "et_level1": "Playing Gear > Ball",
-      "et_level2": "Playing Gear > Ball > Soccerball"
+      "et_level1": "Playing Gear > Hitting Implements",
+      "et_level2": "Playing Gear > Hitting Implements > Tennis Racket"
+    }
+ }
+  {
+    "title": "Ice Hockey Players on Ice Hockey Field",
+    "artist": "Matthieu Pétiard",
+    "year": 2020,
+    "description": "Two players from opposite teams colliding.",
+    "image": "https://unsplash.com/photos/ice-hockey-players-on-ice-hockey-field-Rat7IoXPHYc",
+    "sport_type": {
+      "st_level0": "Team Sport",
+      "st_level1": "Team Sport > Hockey",
+      "st_level2": "Team Sport > Hockey > Ice Hockey"
+    },
+    "Apparel": {
+      "apl_level0": "Active/Sportswear",
+      "apl_level1": "Active/Sportswear > Uniform",
+      "apl_level2": "Active/Sportswear > Uniform > Jersey"
+    },
+    
+    "equipment_type": {
+      "et_level0": "Protective Gear",
+      "et_level1": "Protective Gear > Pads",
+      "et_level2": "Protective Gear > Pads > Shouler and knee pads"
+    }
+ }
+  {
+    "title": "Man in green jacket riding snowboard on snow covered mountain during daytime",
+    "artist": "Damiano Lingauri",
+    "year": 2020,
+    "description": "Man snowboarding and doing a trick while holding his board mid-air.",
+    "image": "https://unsplash.com/photos/man-in-green-jacket-riding-snowboard-on-snow-covered-mountain-during-daytime-OKBP1D8Wr4c",
+    "sport_type": {
+      "st_level0": "Individual Sport",
+      "st_level1": "Individual Sport > Snow sport",
+      "st_level2": "Individual Sport > Snow sport > Snowboarding"
+    },
+    "Apparel": {
+      "apl_level0": "Outwear",
+      "apl_level1": "Outwear > Snow apparel",
+      "apl_level2": "Outwear > Snow apparel > Snow pants & jacket"
+    },
+    
+    "equipment_type": {
+      "et_level0": "Snow Gear",
+      "et_level1": "Snow Gear > Protective Gear",
+      "et_level2": "Snow Gear > Protective Gear > Snow Helmet"
     }
  }
   {
@@ -87,78 +156,9 @@
     },
     
     "equipment_type": {
-      "et_level0": "Playing Gear",
-      "et_level1": "Playing Gear > Ball",
-      "et_level2": "Playing Gear > Ball > Soccerball"
-    }
- }
-  {
-    "title": "Girls playing soccer",
-    "artist": "Kyle Pham",
-    "year": 2018,
-    "description": "Girl about to kick ball with team watching her.",
-    "image": "https://unsplash.com/photos/girls-playing-soccer-njuYs5kFJ3s",
-    "sport_type": {
-      "st_level0": "Team Sport",
-      "st_level1": "Team Sport > Soccer",
-      "st_level2": "Team Sport > Soccer > Outdoor"
-    },
-    "Apparel": {
-      "apl_level0": "Active/Sportswear",
-      "apl_level1": "Active/Sportswear > Uniform",
-      "apl_level2": "Active/Sportswear > Uniform > Jersey & shorts"
-    },
-    
-    "equipment_type": {
-      "et_level0": "Playing Gear",
-      "et_level1": "Playing Gear > Ball",
-      "et_level2": "Playing Gear > Ball > Soccerball"
-    }
- }
-  {
-    "title": "Girls playing soccer",
-    "artist": "Kyle Pham",
-    "year": 2018,
-    "description": "Girl about to kick ball with team watching her.",
-    "image": "https://unsplash.com/photos/girls-playing-soccer-njuYs5kFJ3s",
-    "sport_type": {
-      "st_level0": "Team Sport",
-      "st_level1": "Team Sport > Soccer",
-      "st_level2": "Team Sport > Soccer > Outdoor"
-    },
-    "Apparel": {
-      "apl_level0": "Active/Sportswear",
-      "apl_level1": "Active/Sportswear > Uniform",
-      "apl_level2": "Active/Sportswear > Uniform > Jersey & shorts"
-    },
-    
-    "equipment_type": {
-      "et_level0": "Playing Gear",
-      "et_level1": "Playing Gear > Ball",
-      "et_level2": "Playing Gear > Ball > Soccerball"
-    }
- }
-  {
-    "title": "Girls playing soccer",
-    "artist": "Kyle Pham",
-    "year": 2018,
-    "description": "Girl about to kick ball with team watching her.",
-    "image": "https://unsplash.com/photos/girls-playing-soccer-njuYs5kFJ3s",
-    "sport_type": {
-      "st_level0": "Team Sport",
-      "st_level1": "Team Sport > Soccer",
-      "st_level2": "Team Sport > Soccer > Outdoor"
-    },
-    "Apparel": {
-      "apl_level0": "Active/Sportswear",
-      "apl_level1": "Active/Sportswear > Uniform",
-      "apl_level2": "Active/Sportswear > Uniform > Jersey & shorts"
-    },
-    
-    "equipment_type": {
-      "et_level0": "Playing Gear",
-      "et_level1": "Playing Gear > Ball",
-      "et_level2": "Playing Gear > Ball > Soccerball"
+      "et_level0": "Snow Gear",
+      "et_level1": "Snow Gear > Protective Gear",
+      "et_level2": "Snow Gear > Protective Gear > Helmet"
     }
  }
  
