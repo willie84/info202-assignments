@@ -156,29 +156,29 @@
     }
   },
   {
-    "title": "Girls playing soccer",
-    "artist": "Kyle Pham",
-    "year": 2018,
-    "description": "Girl about to kick ball with team watching her.",
-    "image": "https://unsplash.com/photos/girls-playing-soccer-njuYs5kFJ3s",
+    "title": "Football players in red jersey shirt and red pants running on green grass field during daytime",
+    "artist": "Quino Ai",
+    "year": 2020,
+    "description": "red jersey team takcing opposing team for the ball.",
+    "image": "https://unsplash.com/photos/football-players-in-red-jersey-shirt-and-red-pants-running-on-green-grass-field-during-daytime-F_cJdcb5bSU",
     "Cost": "$65.00",
     "Size": "Youth",
     "Color": "White",
     "Material": "ABS Plastic",
     "sport_type": {
       "st_level0": "Team Sport",
-      "st_level1": "Team Sport > Soccer",
-      "st_level2": "Team Sport > Soccer > Outdoor"
+      "st_level1": "Team Sport > Football",
+      "st_level2": "Team Sport > Football > American Football"
     },
     "Apparel": {
       "apl_level0": "Active/Sportswear",
       "apl_level1": "Active/Sportswear > Uniform",
-      "apl_level2": "Active/Sportswear > Uniform > Jersey & shorts"
+      "apl_level2": "Active/Sportswear > Uniform > Jersey"
     },
     "equipment_type": {
-      "et_level0": "Snow Gear",
-      "et_level1": "Snow Gear > Protective Gear",
-      "et_level2": "Snow Gear > Protective Gear > Helmet"
+      "et_level0": "Protective Gear",
+      "et_level1": "Protective Gear > Pads",
+      "et_level2": "Protective Gear > Pads > Shoulder pads"
     }
   }
 ]
