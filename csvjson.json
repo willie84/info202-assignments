@@ -1,0 +1,578 @@
+[
+  {
+    "Route": "Berlin-Warsaw",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 1,
+    "CO2InKGramsPerPassenger": 156,
+    "TravelTimeMinutes": 85,
+    "TicketPriceEuros": 181
+  },
+  {
+    "Route": "Berlin-Warsaw",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 2,
+    "CO2InKGramsPerPassenger": 156,
+    "TravelTimeMinutes": 85,
+    "TicketPriceEuros": 175
+  },
+  {
+    "Route": "Berlin-Warsaw",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 3,
+    "CO2InKGramsPerPassenger": 156,
+    "TravelTimeMinutes": 85,
+    "TicketPriceEuros": 175
+  },
+  {
+    "Route": "Berlin-Warsaw",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 4,
+    "CO2InKGramsPerPassenger": 156,
+    "TravelTimeMinutes": 85,
+    "TicketPriceEuros": 175
+  },
+  {
+    "Route": "Berlin-Warsaw",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 5,
+    "CO2InKGramsPerPassenger": 156,
+    "TravelTimeMinutes": 85,
+    "TicketPriceEuros": 178
+  },
+  {
+    "Route": "Berlin-Warsaw",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 6,
+    "CO2InKGramsPerPassenger": 156,
+    "TravelTimeMinutes": 85,
+    "TicketPriceEuros": 175
+  },
+  {
+    "Route": "Berlin-Warsaw",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 1,
+    "CO2InKGramsPerPassenger": 56,
+    "TravelTimeMinutes": 379,
+    "TicketPriceEuros": 47
+  },
+  {
+    "Route": "Berlin-Warsaw",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 2,
+    "CO2InKGramsPerPassenger": 56,
+    "TravelTimeMinutes": 388,
+    "TicketPriceEuros": 37
+  },
+  {
+    "Route": "Berlin-Warsaw",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 3,
+    "CO2InKGramsPerPassenger": 56,
+    "TravelTimeMinutes": 383,
+    "TicketPriceEuros": 36
+  },
+  {
+    "Route": "Berlin-Warsaw",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 4,
+    "CO2InKGramsPerPassenger": 56,
+    "TravelTimeMinutes": 383,
+    "TicketPriceEuros": 33
+  },
+  {
+    "Route": "Berlin-Warsaw",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 5,
+    "CO2InKGramsPerPassenger": 56,
+    "TravelTimeMinutes": 382,
+    "TicketPriceEuros": 33
+  },
+  {
+    "Route": "Berlin-Warsaw",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 6,
+    "CO2InKGramsPerPassenger": 56,
+    "TravelTimeMinutes": 383,
+    "TicketPriceEuros": 30
+  },
+  {
+    "Route": "London-Amsterdam",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 1,
+    "CO2InKGramsPerPassenger": 125,
+    "TravelTimeMinutes": 65,
+    "TicketPriceEuros": 78
+  },
+  {
+    "Route": "London-Amsterdam",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 2,
+    "CO2InKGramsPerPassenger": 125,
+    "TravelTimeMinutes": 65,
+    "TicketPriceEuros": 60
+  },
+  {
+    "Route": "London-Amsterdam",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 3,
+    "CO2InKGramsPerPassenger": 125,
+    "TravelTimeMinutes": 65,
+    "TicketPriceEuros": 58
+  },
+  {
+    "Route": "London-Amsterdam",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 4,
+    "CO2InKGramsPerPassenger": 125,
+    "TravelTimeMinutes": 65,
+    "TicketPriceEuros": 50
+  },
+  {
+    "Route": "London-Amsterdam",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 5,
+    "CO2InKGramsPerPassenger": 125,
+    "TravelTimeMinutes": 65,
+    "TicketPriceEuros": 32
+  },
+  {
+    "Route": "London-Amsterdam",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 6,
+    "CO2InKGramsPerPassenger": 125,
+    "TravelTimeMinutes": 65,
+    "TicketPriceEuros": 29
+  },
+  {
+    "Route": "London-Amsterdam",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 1,
+    "CO2InKGramsPerPassenger": 14,
+    "TravelTimeMinutes": 221,
+    "TicketPriceEuros": 173
+  },
+  {
+    "Route": "London-Amsterdam",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 2,
+    "CO2InKGramsPerPassenger": 14,
+    "TravelTimeMinutes": 221,
+    "TicketPriceEuros": 121
+  },
+  {
+    "Route": "London-Amsterdam",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 3,
+    "CO2InKGramsPerPassenger": 14,
+    "TravelTimeMinutes": 221,
+    "TicketPriceEuros": 97
+  },
+  {
+    "Route": "London-Amsterdam",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 4,
+    "CO2InKGramsPerPassenger": 14,
+    "TravelTimeMinutes": 221,
+    "TicketPriceEuros": 78
+  },
+  {
+    "Route": "London-Amsterdam",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 5,
+    "CO2InKGramsPerPassenger": 14,
+    "TravelTimeMinutes": 226,
+    "TicketPriceEuros": 44
+  },
+  {
+    "Route": "London-Amsterdam",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 6,
+    "CO2InKGramsPerPassenger": 14,
+    "TravelTimeMinutes": 221,
+    "TicketPriceEuros": 49
+  },
+  {
+    "Route": "London-Marseille",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 1,
+    "CO2InKGramsPerPassenger": 311,
+    "TravelTimeMinutes": 120,
+    "TicketPriceEuros": 121
+  },
+  {
+    "Route": "London-Marseille",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 2,
+    "CO2InKGramsPerPassenger": 311,
+    "TravelTimeMinutes": 120,
+    "TicketPriceEuros": 109
+  },
+  {
+    "Route": "London-Marseille",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 3,
+    "CO2InKGramsPerPassenger": 311,
+    "TravelTimeMinutes": 120,
+    "TicketPriceEuros": 91
+  },
+  {
+    "Route": "London-Marseille",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 4,
+    "CO2InKGramsPerPassenger": 311,
+    "TravelTimeMinutes": 120,
+    "TicketPriceEuros": 66
+  },
+  {
+    "Route": "London-Marseille",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 5,
+    "CO2InKGramsPerPassenger": 311,
+    "TravelTimeMinutes": 120,
+    "TicketPriceEuros": 27
+  },
+  {
+    "Route": "London-Marseille",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 6,
+    "CO2InKGramsPerPassenger": 311,
+    "TravelTimeMinutes": 120,
+    "TicketPriceEuros": 26
+  },
+  {
+    "Route": "London-Marseille",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 1,
+    "CO2InKGramsPerPassenger": 36,
+    "TravelTimeMinutes": 390,
+    "TicketPriceEuros": 217
+  },
+  {
+    "Route": "London-Marseille",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 2,
+    "CO2InKGramsPerPassenger": 36,
+    "TravelTimeMinutes": 390,
+    "TicketPriceEuros": 180
+  },
+  {
+    "Route": "London-Marseille",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 3,
+    "CO2InKGramsPerPassenger": 36,
+    "TravelTimeMinutes": 390,
+    "TicketPriceEuros": 256
+  },
+  {
+    "Route": "London-Marseille",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 4,
+    "CO2InKGramsPerPassenger": 36,
+    "TravelTimeMinutes": 390,
+    "TicketPriceEuros": 156
+  },
+  {
+    "Route": "London-Marseille",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 5,
+    "CO2InKGramsPerPassenger": 36,
+    "TravelTimeMinutes": 389,
+    "TicketPriceEuros": 82
+  },
+  {
+    "Route": "London-Marseille",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 6,
+    "CO2InKGramsPerPassenger": 36,
+    "TravelTimeMinutes": 388,
+    "TicketPriceEuros": 99
+  },
+  {
+    "Route": "Munich-Budapest",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 1,
+    "CO2InKGramsPerPassenger": 168,
+    "TravelTimeMinutes": 70,
+    "TicketPriceEuros": 411
+  },
+  {
+    "Route": "Munich-Budapest",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 2,
+    "CO2InKGramsPerPassenger": 168,
+    "TravelTimeMinutes": 70,
+    "TicketPriceEuros": 267
+  },
+  {
+    "Route": "Munich-Budapest",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 3,
+    "CO2InKGramsPerPassenger": 168,
+    "TravelTimeMinutes": 70,
+    "TicketPriceEuros": 191
+  },
+  {
+    "Route": "Munich-Budapest",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 4,
+    "CO2InKGramsPerPassenger": 168,
+    "TravelTimeMinutes": 70,
+    "TicketPriceEuros": 172
+  },
+  {
+    "Route": "Munich-Budapest",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 5,
+    "CO2InKGramsPerPassenger": 168,
+    "TravelTimeMinutes": 70,
+    "TicketPriceEuros": 167
+  },
+  {
+    "Route": "Munich-Budapest",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 6,
+    "CO2InKGramsPerPassenger": 168,
+    "TravelTimeMinutes": 70,
+    "TicketPriceEuros": 163
+  },
+  {
+    "Route": "Munich-Budapest",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 1,
+    "CO2InKGramsPerPassenger": 18,
+    "TravelTimeMinutes": 417,
+    "TicketPriceEuros": 86
+  },
+  {
+    "Route": "Munich-Budapest",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 2,
+    "CO2InKGramsPerPassenger": 18,
+    "TravelTimeMinutes": 413,
+    "TicketPriceEuros": 76
+  },
+  {
+    "Route": "Munich-Budapest",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 3,
+    "CO2InKGramsPerPassenger": 18,
+    "TravelTimeMinutes": 414,
+    "TicketPriceEuros": 69
+  },
+  {
+    "Route": "Munich-Budapest",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 4,
+    "CO2InKGramsPerPassenger": 18,
+    "TravelTimeMinutes": 413,
+    "TicketPriceEuros": 62
+  },
+  {
+    "Route": "Munich-Budapest",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 5,
+    "CO2InKGramsPerPassenger": 18,
+    "TravelTimeMinutes": 413,
+    "TicketPriceEuros": 57
+  },
+  {
+    "Route": "Munich-Budapest",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 6,
+    "CO2InKGramsPerPassenger": 18,
+    "TravelTimeMinutes": 413,
+    "TicketPriceEuros": 56
+  },
+  {
+    "Route": "Paris-Barcelona",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 1,
+    "CO2InKGramsPerPassenger": 238,
+    "TravelTimeMinutes": 110,
+    "TicketPriceEuros": 100
+  },
+  {
+    "Route": "Paris-Barcelona",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 2,
+    "CO2InKGramsPerPassenger": 238,
+    "TravelTimeMinutes": 110,
+    "TicketPriceEuros": 73
+  },
+  {
+    "Route": "Paris-Barcelona",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 3,
+    "CO2InKGramsPerPassenger": 238,
+    "TravelTimeMinutes": 110,
+    "TicketPriceEuros": 29
+  },
+  {
+    "Route": "Paris-Barcelona",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 4,
+    "CO2InKGramsPerPassenger": 238,
+    "TravelTimeMinutes": 110,
+    "TicketPriceEuros": 23
+  },
+  {
+    "Route": "Paris-Barcelona",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 5,
+    "CO2InKGramsPerPassenger": 238,
+    "TravelTimeMinutes": 110,
+    "TicketPriceEuros": 21
+  },
+  {
+    "Route": "Paris-Barcelona",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 6,
+    "CO2InKGramsPerPassenger": 238,
+    "TravelTimeMinutes": 110,
+    "TicketPriceEuros": 41
+  },
+  {
+    "Route": "Paris-Barcelona",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 1,
+    "CO2InKGramsPerPassenger": 11,
+    "TravelTimeMinutes": 396,
+    "TicketPriceEuros": 145
+  },
+  {
+    "Route": "Paris-Barcelona",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 2,
+    "CO2InKGramsPerPassenger": 11,
+    "TravelTimeMinutes": 390,
+    "TicketPriceEuros": 138
+  },
+  {
+    "Route": "Paris-Barcelona",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 3,
+    "CO2InKGramsPerPassenger": 11,
+    "TravelTimeMinutes": 390,
+    "TicketPriceEuros": 103
+  },
+  {
+    "Route": "Paris-Barcelona",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 4,
+    "CO2InKGramsPerPassenger": 11,
+    "TravelTimeMinutes": 385,
+    "TicketPriceEuros": 109
+  },
+  {
+    "Route": "Paris-Barcelona",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 5,
+    "CO2InKGramsPerPassenger": 11,
+    "TravelTimeMinutes": 387,
+    "TicketPriceEuros": 105
+  },
+  {
+    "Route": "Paris-Barcelona",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 6,
+    "CO2InKGramsPerPassenger": 11,
+    "TravelTimeMinutes": 387,
+    "TicketPriceEuros": 110
+  },
+  {
+    "Route": "Zurich-Milan",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 1,
+    "CO2InKGramsPerPassenger": 104,
+    "TravelTimeMinutes": 65,
+    "TicketPriceEuros": 125
+  },
+  {
+    "Route": "Zurich-Milan",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 2,
+    "CO2InKGramsPerPassenger": 104,
+    "TravelTimeMinutes": 65,
+    "TicketPriceEuros": 125
+  },
+  {
+    "Route": "Zurich-Milan",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 3,
+    "CO2InKGramsPerPassenger": 104,
+    "TravelTimeMinutes": 65,
+    "TicketPriceEuros": 118
+  },
+  {
+    "Route": "Zurich-Milan",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 4,
+    "CO2InKGramsPerPassenger": 104,
+    "TravelTimeMinutes": 65,
+    "TicketPriceEuros": 122
+  },
+  {
+    "Route": "Zurich-Milan",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 5,
+    "CO2InKGramsPerPassenger": 104,
+    "TravelTimeMinutes": 65,
+    "TicketPriceEuros": 118
+  },
+  {
+    "Route": "Zurich-Milan",
+    "Mode": "Plane",
+    "WeeksAheadPurchased": 6,
+    "CO2InKGramsPerPassenger": 104,
+    "TravelTimeMinutes": 65,
+    "TicketPriceEuros": 118
+  },
+  {
+    "Route": "Zurich-Milan",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 1,
+    "CO2InKGramsPerPassenger": 3,
+    "TravelTimeMinutes": 206,
+    "TicketPriceEuros": 67
+  },
+  {
+    "Route": "Zurich-Milan",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 2,
+    "CO2InKGramsPerPassenger": 3,
+    "TravelTimeMinutes": 206,
+    "TicketPriceEuros": 42
+  },
+  {
+    "Route": "Zurich-Milan",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 3,
+    "CO2InKGramsPerPassenger": 3,
+    "TravelTimeMinutes": 206,
+    "TicketPriceEuros": 41
+  },
+  {
+    "Route": "Zurich-Milan",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 4,
+    "CO2InKGramsPerPassenger": 3,
+    "TravelTimeMinutes": 206,
+    "TicketPriceEuros": 35
+  },
+  {
+    "Route": "Zurich-Milan",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 5,
+    "CO2InKGramsPerPassenger": 3,
+    "TravelTimeMinutes": 206,
+    "TicketPriceEuros": 33
+  },
+  {
+    "Route": "Zurich-Milan",
+    "Mode": "Train",
+    "WeeksAheadPurchased": 6,
+    "CO2InKGramsPerPassenger": 3,
+    "TravelTimeMinutes": 206,
+    "TicketPriceEuros": 30
+  }
+]
